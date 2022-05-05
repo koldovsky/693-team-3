@@ -6,9 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+        .preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #eeeeee;
+            z-index: 1001;
+        }
+
+        .spinner1 {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            top: calc(50% - 50px/2);
+            left: calc(50% - 50px/2);
+        }
+
+        .spinner1 .double-bounce1,
+        .spinner1 .double-bounce2 {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: rgb(231, 31, 31);
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-animation: bounce 2.0s infinite ease-in-out;
+            animation: bounce 2.0s infinite ease-in-out;
+        }
+
+        .spinner1 .double-bounce2 {
+            -webkit-animation-delay: -1.0s;
+            animation-delay: -1.0s;
+        }
+
+        @-webkit-keyframes bounce {
+
+            0%,
+            100% {
+                transform: scale(0);
+                -webkit-transform: scale(0);
+            }
+
+            50% {
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: scale(0);
+                -webkit-transform: scale(0);
+            }
+
+            50% {
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+        }
+
+        .loaded_hiding .preloader {
+            transition: 10s opacity;
+            opacity: 0;
+        }
+
+        .loaded .preloader {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="spinner1">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
     <!-- Daryna
     header loder
      -->
