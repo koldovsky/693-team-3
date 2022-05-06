@@ -156,7 +156,7 @@
                                 style="color: #fff; font-size: 16px;  font-family: PT Sans,sans-serif;">
                                 <a href="/" style="color: #fff;">About us.</a>
                                 <a href="/" style="color: #fff;">Sale.</a>
-                                <a href="/" style="color: #fff;">Collection.</a>
+                                <a href="#main_coll" style="color: #fff;">Collection.</a>
                                 <a href="/" style="color: #fff;">Blog.</a>
                                 <a href="/" style="color: #fff;">Contact us.</a>
                             </div>
@@ -183,31 +183,31 @@
                 </h1>
             </div>
             <div class="button">
-                <span class="button__content_1_I">Shop Now →</span>
+                <a href="#main_coll" style="color: black;"><span class="button__content_1_I">Shop Now →</span></a>
             </div>
         </div>
         <div class="group_categories" style="display: flex;">
-            <div class="categories_1">
-                <img width="400px" height="auto" alt="sneakers" class="sneakers-image" src="img/img-head/sneakers.svg">
+            <div class="categories_1" style="background: url(img/img-head/sneakers.svg);">
+                <!-- <img width="400px" height="auto" alt="sneakers" class="sneakers-image" src="img/img-head/sneakers.svg"> -->
                 <h1><span class="w-text-content">NEW ARRIVALS<span class="text-ui-brand-color"
                             style="color: var(--ui-brand-color);">.</span></span></h1>
                 <div class="red-stripe" style="height:2px;width:18%;background-color:#f40106"></div>
                 <div class="url">
-                    <a href="/" style="color: black;"><span style="font-weight: bold;">Shop Collection →</span></a>
+                    <a href="#main_coll" style="color: black;"><span style="font-weight: bold;">Shop Collection →</span></a>
                 </div>
             </div>
-            <div class="categories_2">
-                <img width="198px" height="auto" alt="skate" class="skate-image" src="img/img-head/skate.png">
+            <div class="categories_2"  style="background: url(img/img-head/skate.png);">
+                <!-- <img width="198px" height="auto" alt="skate" class="skate-image" src="img/img-head/skate.png"> -->
                 <h1><span class="w-text-content">TRAINERS<span class="text-ui-brand-color"
                             style="color: var(--ui-brand-color);">.</span></span></h1>
                 <div class="red-stripe" style="height:2px;width:18%;background-color:#f40106"></div>
                 <div class="url">
-                    <a href="/" style="color: black;"><span style="font-weight: bold;">Shop Collection →</span></a>
+                    <a href="#main_coll" style="color: black;"><span style="font-weight: bold;">Shop Collection →</span></a>
                 </div>
 
             </div>
-            <div class="categories_3">
-                <img width="192px" height="auto" alt="topic" class="topic-image" src="img/img-head/topic.png">
+            <div class="categories_3" style="background: url(img/img-head/topic.png);">
+                <!-- <img width="192px" height="auto" alt="topic" class="topic-image" src="img/img-head/topic.png"> -->
                 <h1><span class="w-text-content">HOT SALE<span class="text-ui-brand-color"
                             style="color: var(--ui-brand-color);">.</span></span></h1>
                 <div class="red-stripe" style="height:2px;width:18%;background-color:#f40106"></div>
@@ -243,18 +243,69 @@
 
         <!-- Ivan
     main COLLECTION-->
-        <section class="main-coll">
-            <h2 class="main-coll__h2">MAIN COLLECTION
-                <span class="main-coll__h2__dot" </h2>.
-        </section>
-        <p class="main-coll__p">Shop our main fitness collection for men and women represented by the famous brands.</p>
-        <div class="table-women">
-            <div class="table-women__puma">
-                <a href="#" "><img class=" table-women__puma__img" src="img/mainCollection/Puma Sports Bra.jpeg"
-                    alt="Puma Sports Bra">
-                    <p class="table-women__puma__text">Puma Sports Bra</p>
-                </a>
-                <p class="table-women__puma__price">$12,00</p>
+    <section class="main-coll">
+        <h2 class="main-coll__h2">MAIN COLLECTION
+            <span class="main-coll__h2__dot" </h2>.
+    </section>
+    <p class="main-coll__p">Shop our main fitness collection for men and women represented by the famous brands.</p>
+    <div class="table-women">
+        <div class="table-women__puma">
+            <a href="html/puma-sports-bra.html" "><img class=" table-women__puma__img"
+                src="img/mainCollection/Puma Sports Bra.jpeg" alt="Puma Sports Bra">
+                <p class="table-women__puma__text">Puma Sports Bra</p>
+            </a>
+            <p class="table-women__puma__price">$12,00</p>
+        </div>
+        <div class="table-women__reebok">
+            <a href="html/reebok-long-sleeve.html" "><img class=" table-women__reebok__img"
+                src="img/mainCollection/Reebok Long Sleeve Top.jpeg" alt="Reebok Long Sleeve Top">
+                <p class="table-women__reebok__text">Reebok Long Sleeve Top</p>
+            </a>
+            <p class="table-women__reebok__price">$18,00</p>
+        </div>
+        <div class="table-women__quicksilver">
+            <a href="html/quicksilver-workout-top.html" "><img class=" table-women__quicksilver__img"
+                src="img/mainCollection/Quicksilver Workout Top.jpeg" alt="Quicksilver Workout Top">
+                <p class="table-women__quicksilver__text">Quicksilver Workout Top</p>
+            </a>
+            <p class="table-women__quicksilver__price">$12,00</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Mykola Hrytsenko  
+    DEAL OF THE MONTH, New arrivals-->
+    <section class="offer">
+        <article class="offer__wrap">
+            <h2 class="offer__wrap__h2">DEAL OF THE MONTH
+                <span class="offer__wrap__h2_dot">.</span>
+            </h2>
+            <p class="offer__wrap__p1">PUMA SPORTS BRA
+                <span class="offer__wrap__p1__new">$50</span>
+                <span class="offer__wrap__p1__old">$70</span>
+            </p>
+            <p class="offer__wrap__p2">Start your fitness story right away with this comfortable bra and get advantage
+                of our discount.</p>
+            <span class="offer__wrap__details-link">
+                <a href="" class="offer__wrap__details-link_a">More Details</a>
+            </span>
+            <div id="countdown" class="offer__wrap__countdown countdown">
+                <div class="countdown-number">
+                    <span class="days countdown-time"></span>
+                    <span class="countdown-text">Days</span>
+                </div>
+                <div class="countdown-number">
+                    <span class="hours countdown-time"></span>
+                    <span class="countdown-text">Hours</span>
+                </div>
+                <div class="countdown-number">
+                    <span class="minutes countdown-time"></span>
+                    <span class="countdown-text">Minutes</span>
+                </div>
+                <div class="countdown-number">
+                    <span class="seconds countdown-time"></span>
+                    <span class="countdown-text">Seconds</span>
+                </div>
             </div>
             <div class="table-women__reebok">
                 <a href="#" "><img class=" table-women__reebok__img"
@@ -574,11 +625,20 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div>
                 <div class="gray-line" style=""></div>
                 <div></div>
             </div>
         </footer>
+=======
+        </div>
+        <div>
+            <div class="gray-line"></div>
+            <div></div>
+        </div>
+    </footer>
+>>>>>>> d4dd5e9fc2151639dec2e9fa7b80bf30c438db36
 
 </body>
 
