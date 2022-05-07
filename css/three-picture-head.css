@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.group_categories{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin-left: 351.500px;
+    margin-right: 351.500px;
+    
+}
+.categories_1{
+    background: url(/img/img-head/sneakers.svg);
+    height: 374.984px;
+    width: 570px;
+    position: relative;
+    margin-right: 35px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.categories_2{
+    background: url(/img/img-head/skate.png);
+    height: 374.984px;
+    width: 270px;
+    position: relative;
+    margin-right: 35px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.categories_3{
+    background: url(/img/img-head/topic.png);
+    height: 374.984px;
+    width: 270px;
+    position: relative;
+    margin-right: 35px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-line{
+    margin-top: 210px;
+    margin-left: 45px;
+}
+.text-line_m{
+    margin-top: 210px;
+    margin-left: 25px;
+}
+
+.t-text-content{
+    font-weight: 400;
+    font-size: 52px;
+    color: #222323;
+    line-height: 1;
+    font-family: Bebas Neue,cursive;
+}
+.text-brand-color{
+    color: #f40106!important;
+    font-size: 52px;
+    line-height: 1.2;
+    font-family: Bebas Neue,cursive;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.red-stripe{
+    margin-top: 10px;
+    height:2px;
+    width:85px;
+    background-color:#f40106
+}
+.url{
+    margin-top: 25px;
+}
+.url a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+}
+.url a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,93 @@
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #eeeeee;
+    z-index: 1001;
+}
+
+.spinner1 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 50px/2);
+    left: calc(50% - 50px/2);
+}
+
+.spinner1 .double-bounce1,
+.spinner1 .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(231, 31, 31);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+.spinner1 .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 10s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+.slider__item_img {
+    width: 382px;
+    height: 382px;
+}
+
+.store-offer_img {
+    width: 720px;
+    height: 947px;
+}
+
+.svg-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.about-us__img {
+    width: 720px;
+    height: 947px;
+}
