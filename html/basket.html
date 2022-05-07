@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basket</title>
+</head>
+
+<main>
+    <div class="box">
+        <div class="box_head" style="display: flex;">
+            <div class="shopping-card" style="background-color:rgb(247, 248, 250);color:#222323">Shopping cart</div>
+            <div class="cross">
+                <img width="10" alt="cross" class="logo-image" src="img/img-head/cross.png">
+            </div>
+        </div>
+        <div class="text_name">Products</div>
+        <div class="product-inner">
+            <div class="preview_photo" data-sub-item="preview">
+                <img src="img/img-head/72.jpg" alt="woman">
+            </div>
+            <div class="info">
+                <div class="name-wrapper">
+                    <div data-sub-item="name" class="name_text">Quicksilver Workout Top (2121)</div>
+
+                </div>
+            </div>
+            <div class="right">
+                <div data-sub-item="quantity">
+                    <div class="input-quantity">
+                        <input type="number" class="input" value="1">
+                        <div class="input-quantity_arrows">
+                            <div class="arrow_up" data="quantity-up">
+                                <img width="14" alt="arrow-up" style="filter: invert(50%);"
+                                    src="img/img-head/arrow-up.png">
+                            </div>
+                            <div class="arrow--down" data="quantity-down">
+                                <img width="14" alt="arrow-down" style="filter: invert(50%);"
+                                    src="img/img-head/arrow-down.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-sub-item="amount" class="amount_3S_ ui-text" data-amount="1200">$12,00</div>
+            </div>
+        </div>
+        <div data-sub-item="remove" class="remove_2cA">
+            <img width="14" alt="basket" src="img/img-head/bin.png">
+        </div>
+
+        <div class="text_name">Place an order</div>
+        <div class="main_box">
+            <form data-cart-component="customer-details-form" data-test="customer-details-form">
+                <div class="name_form">
+                    <div class="name_text_form">
+                        <label><span data-text="name">Name</span> <span data="required" style="opacity: 1;">*</span>
+                        </label>
+                    </div>
+                    <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
+                        class="form__input_name"
+                        style="border-color:#9b9b9b;background-color:rgba(34, 35, 35, 0.12);border-width:0px"
+                        placeholder="Your name">
+                    <div data="validation-text" class="validation-text">
+                    </div>
+                </div>
+                <div class="email_form">
+                    <div class="email_text_form"><span data-text="name">Email</span>
+                        <span data="required" style="opacity: 1;">*</span>
+                    </div>
+                    <input type="email" data-text="input-field" data-invalid-classname="invalid-field"
+                        class="form__input_email"
+                        style="border-color:#9b9b9b;background-color:rgba(34, 35, 35, 0.12);border-width:0px"
+                        placeholder="Your email address">
+                    <div data="validation-text" class="validation-text">
+
+                    </div>
+                </div>
+                <div class="phone_form">
+                    <div class="phone_text_form">
+                        <span data-text="name">Phone</span>
+                        <span data="required" style="opacity: 1;">*</span>
+                    </div>
+                    <input type="number" data-text="input-field" data-invalid-classname="invalid-field"
+                        class="form__input_phone"
+                        style="border-color:#9b9b9b;background-color:rgba(34, 35, 35, 0.12);border-width:0px"
+                        placeholder="Your phone">
+                    <div data="validation-text" class="validation-text">
+
+                    </div>
+                </div>
+                <div class="comment_form">
+                    <div class="comment_text_form">
+                        <span data-text="name">Comment</span>
+                        <span data="required" style="opacity:0">*</span>
+                    </div>
+                    <textarea data-text="input-field" data-invalid-classname="invalid-field"
+                        class="form__input_comment"
+                        style="border-color:#9b9b9b;background-color:rgba(34, 35, 35, 0.12);border-width:0px"
+                        placeholder="Your comment">
+                        </textarea>
+                    <div data="validation-text" class="validation-text">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer_box">
+            <div class="button">
+                <span class="button__content">Order</span>
+            </div>
+        </div>
+    </div>
+</main>
