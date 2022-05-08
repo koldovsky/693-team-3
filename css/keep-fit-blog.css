@@ -1,0 +1,30 @@
+.keep-fit__back {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    background-image: url(/img/keep-fit/back-img.jpeg);
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.keep-fit__article1 {
+    color: #FFFFFF9F;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Bebas Neue, cursive;
+    font-stretch: 100%;
+}
+.keep-fit__title {
+    font-family: Bebas Neue;
+    font-size: 62px;
+    font-stretch: 100%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 90px;
+    font-style: normal;
+    margin-top: -5px;
+    margin-bottom: -40px;
+    padding-left: 400px;
+}
