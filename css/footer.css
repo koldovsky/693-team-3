@@ -1,0 +1,94 @@
+.footer {
+    background-color: #222323;
+}
+
+.footer__container {
+    color: #fff;
+    display: flex; 
+    border-bottom: 0.5px solid;
+    border-color: #fff;
+    padding: 70px 50px 45px 50px;
+    margin: 0 40px 0 40px;
+}
+
+.footer__description-wrapper {
+    padding: 0 15px 0 15px;
+}
+
+.footer__logo {
+    width: 179px;
+}
+
+.footer__description {
+    color: #FFFFFFA6;
+    font-size: 16px;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.footer__navigation-wrapper {
+    padding: 0 15px 0 15px;
+    width: 270px;
+}
+
+.footer__title {
+    font-family: var(--font-titles);
+    font-size: 24px;
+}
+
+.red-underline {
+    height: 2px; 
+    width: 19%; 
+    background-color: #f40106;
+    margin: 15px 0 15px 0;
+}
+
+.footer__anchor{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer__anchor:hover {
+    color: #f40106;
+    text-decoration: underline;
+}
+.footer__li{
+    list-style-type: none;
+    padding: 7px 0 7px 0;
+    
+}
+
+.footer__shop-wrapper{
+    padding: 0 15px 0 15px;
+    width: 200px;
+}
+
+.footer__social-wrapper{
+    text-align: right;
+    padding: 0 15px 0 15px;
+    width: 300px;
+}
+
+.footer__social-links img{
+    width: 25px;
+    color: #f40106;
+}
+
+.footer__social-links a{
+    text-decoration: none;
+   
+}
+
+.footer__signature {
+    background-color: #222323;
+    padding: 15px 15px 15px 15px;
+}
+
+.footer__signature-style {
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    justify-content: space-between;
+    padding:0 50px 0 50px;
+}

@@ -8,4 +8,6 @@ font-family: 'PT Sans', sans-serif;*/
 :root {
   --block-name-color: #222323;
   --block-dot-color: #f40106;
+  font-family: 'PT Sans', sans-serif;
+  --font-titles: 'Bebas Neue', cursive;
 }
