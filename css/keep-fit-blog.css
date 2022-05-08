@@ -1,0 +1,10 @@
+.keep-fit__back {
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    background-image: url(/img/keep-fit/background-img.jfif);
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
