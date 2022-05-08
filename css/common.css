@@ -8,4 +8,6 @@ font-family: 'PT Sans', sans-serif;*/
 :root {
   --block-name-color: #222323;
   --block-dot-color: #f40106;
+  --block-transparent-color: rgba(34, 35, 35, 0.46);
+  --block-secondary-color: rgb(113, 116, 116);
 }
