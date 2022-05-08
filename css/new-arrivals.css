@@ -46,22 +46,18 @@
     color: var(--grey-font);
 }
 .new-arrivals__wrap__btn {
-    width: 145px;
-    height: 50px;
-    border: 2px solid var(--offer-background);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    width: 145px;
+    height: 50px;
+    border: 2px solid var(--offer-background);
+    background-color: var(--white-text);
+    color: var(--offer-background);
+    text-decoration: none; 
 }
 .new-arrivals__wrap__btn:hover {
     background-color: var(--offer-background);
-}
-.new-arrivals__wrap__btn_a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #222323;
-}
-.new-arrivals__wrap__btn_a:hover {
     color: var(--white-text);
 }
