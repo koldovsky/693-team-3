@@ -13,7 +13,7 @@
     width: 8%;
     background-color: #e0e0e0;
 }
-.main-collection__p {
+.main-collection__description {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     color: rgb(113, 116, 116);
@@ -29,7 +29,17 @@
 }
 .table-women__price {
     color: var(--block-dot-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 .table-women__item-name {
-    color: rgb(113, 116, 116);
+    color: var(--block-secondary-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.table-women__item-name:hover {
+    text-decoration: underline;
 }
