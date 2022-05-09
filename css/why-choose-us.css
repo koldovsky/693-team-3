@@ -1,7 +1,7 @@
 .why-choose-us__h2 {
     font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 52px;
+    font-size: 38px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -13,11 +13,10 @@
     color: rgb(113, 116, 116);
     margin-bottom: 50px;
 }
-.why_choose_us__cards {
+.why-choose-us__cards {
     font-family: 'Bebas Neue';
     font-weight: 400;
-    font-size: 52px;
-    text-align: center;
+    font-size: 22px;
     text-transform: uppercase;
 }
 .cards__text {
