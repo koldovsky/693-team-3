@@ -19,5 +19,17 @@
     color: rgb(113, 116, 116);
     font-size: 20px;
 }
-
-
+[name="button"] {
+    color: white;
+    background-color: var(--block-name-color);
+}
+[name="button"]:hover {
+    color: white;
+    background-color: var(--block-dot-color);
+}
+.table-women__price {
+    color: var(--block-dot-color);
+}
+.table-women__item-name {
+    color: rgb(113, 116, 116);
+}
