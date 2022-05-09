@@ -1,8 +1,6 @@
 @import url(common.css);
 
-.mid-season-sale {
-}
-.mid-season-sale__h4 {
+.mid-season-sale__h3 {
   font-family: "Bebas Neue", cursive;
   font-size: 52px;
   font-weight: 400;
@@ -11,7 +9,7 @@
   text-align: center;
 }
 
-.mid-season-sale__h4 span {
+.mid-season-sale__h3 span {
   color: var(--block-dot-color);
 }
 
@@ -23,8 +21,7 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.mid-season-sale__collection {
-}
+
 .mid-season-sale__item a {
   color: var(--block-secondary-color);
   font-family: "PT Sans", sans-serif;
