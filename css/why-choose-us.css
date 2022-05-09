@@ -1,0 +1,29 @@
+.why-choose-us__h2 {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.why-choose-us__slogan {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(113, 116, 116);
+    margin-bottom: 50px;
+}
+.why_choose_us__cards {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cards__text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(113, 116, 116);
+    margin-bottom: 50px;
+}
