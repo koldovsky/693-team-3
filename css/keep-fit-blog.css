@@ -12,11 +12,7 @@
 .keep-fit__article1 {
     color: #FFFFFF9F;
     font-size: 24px;
-    font-weight: 400;
     font-family: Bebas Neue, cursive;
-    font-stretch: 100%;
-    padding-top: 90px;
-    padding-left: 700px;
 
 }
 
@@ -24,32 +20,21 @@
     font-family: Bebas Neue;
     font-size: 124px;
     color: #FFFFFF;
-    padding-left: 700px;
-    ;
+   
+    
 }
 
 .keep-fit__img-list {
     color: #FFFFFF;
     font-size: 16px;
     font-family: PT Sans, sans-serif;
-    font-weight: 700;
-    padding-left: 700px;
 
-}
-
-.keep-fit__list {
-    display: inline;
-    padding: 0 12px;
 }
 
 .keep-fit__article2 {
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 400;
     font-family: PT Sans, sans-serif;
-    padding-left: 700px;
-    padding-top: 25px;
-    padding-right: 100px;
 }
 
 .link.button {
