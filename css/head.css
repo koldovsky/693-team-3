@@ -135,7 +135,7 @@
     margin-top: 8px;
 }
 
-.unser_head{
+.under_head{
     background-image: url(/img/img-head/under-head.jpg);
     box-sizing: border-box;
     max-width: 100%;
@@ -189,6 +189,7 @@
 }
 
 .button{
+    display: inline-block;
     padding: 18px 30px;
     border-radius: 0;
     font-size: 16.5px;
@@ -197,7 +198,6 @@
     background-color: var(--block-dot-color);
     margin-top: 40px;
     margin-left: 351.500px;
-    margin-right: 1385px;
     cursor: pointer;
 
 }
