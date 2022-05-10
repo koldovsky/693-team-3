@@ -1,13 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); font-family: 'Bebas Neue', cursive;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap'); font-family: 'Bebas Neue', cursive;
-font-family: 'PT Sans', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&family=PT+Serif:ital@1&display=swap");
 
-/* Gennadiy start */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
-/* Gennadiy end */
 :root {
   --font-titles: "Bebas Neue", cursive;
   --font-subtitles: "PT Sans", sans-serif;
+  --font-basket: "PT Serif", serif;
   --block-name-color: #222323; /* rgb(34, 35, 35) h2, h3*/
   --block-dot-color: #f40106; /* rgb(244, 1, 6) dot, price, store homepage, product code */
   --block-form-color: #717474; /* rgb(113, 116, 116) p, h4, price, description*/
