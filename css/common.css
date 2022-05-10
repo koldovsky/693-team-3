@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&family=PT+Serif:ital@1&display=swap");
 
 :root {
+  font-family: "PT Sans", sans-serif;
   --font-titles: "Bebas Neue", cursive;
-  --font-subtitles: "PT Sans", sans-serif;
   --font-basket: "PT Serif", serif;
   --block-name-color: #222323; /* rgb(34, 35, 35) h2, h3*/
   --block-dot-color: #f40106; /* rgb(244, 1, 6) dot, price, store homepage, product code */
@@ -12,7 +12,7 @@
   --block-transparent-color: rgba(34, 35, 35, 0.46); /* trending */
   --block-in-stock-color: rgb(97, 168, 84); /* In stock */
 }
-
 body {
   max-width: 1440px;
+  margin: 0 auto;
 }
