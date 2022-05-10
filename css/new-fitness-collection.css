@@ -1,16 +1,16 @@
-@import url(common.css);
 .newfitcollection {
-  background-image: url(../img/newFitnessCollection/woman_with_mat_bg.jpg);
-  height: 1000px;
-  width: auto;
+  background-image: url(../img/new-fitness-collection/woman-with-mat-bg.jpg);
+  background-size: 100%;
+  height: 790px;
+  min-width: 100%;
 }
 .newfitcollection__supheader {
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--font-titles);
   font-size: 24px;
   color: var(--block-transparent-color);
 }
 .newfitcollection__h2 {
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--font-titles);
   font-size: 124px;
   font-weight: normal;
   color: var(--block-name-color);
@@ -21,10 +21,10 @@
   color: var(--block-dot-color);
 }
 .main-coll__anchor {
-  font-family: "PT Sans", sans-serif;
+  font-family: var(--font-subtitles);
   font-size: 16.5px;
   text-decoration: none;
-  color: white;
+  color: var(--block-white-color);
   font-weight: 700;
   display: inline-block;
   width: 160px;
