@@ -9,8 +9,24 @@
   font-size: 52px;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 50px;
+  margin: 110px 0 10px 0;
   text-align: center;
+}
+
+.mid-season-sale__h3 span {
+  font-family: var(--font-titles);
+  color: var(--block-dot-color);
+  font-size: 52px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.mid-season-sale__devider {
+  width: 94px;
+  height: 2px;
+  background-color: rgb(224, 224, 224);
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .mid-season-sale__subheader {
@@ -20,6 +36,7 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 50px;
+  line-height: 30px;
 }
 
 .mid-season-sale__item a {
