@@ -16,3 +16,7 @@ font-family: 'PT Sans', sans-serif;*/
   --block-transparent-color: rgba(34, 35, 35, 0.46); /* trending */
   --block-in-stock-color: rgb(97, 168, 84); /* In stock */
 }
+
+body {
+  width: 1440px;
+}
