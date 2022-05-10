@@ -1,3 +1,49 @@
-.main-collection{
-    background-color: aliceblue;
+.main-collection {
+}
+.main-collection__block-wraper {
+}
+.main-collection-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-collection-header-hero {
+    font-family: var(--font-titles);
+    font-size: 45px;
+}
+.main-collection-header-dot {
+    color: var(--block-dot-color);
+}
+.main-collection-header-devider {
+    height: 2px;
+    width: 8%;
+    background-color: var(--block-input-color);
+}
+
+.main-collection-header-description {
+    color: var(--block-form-color);
+    font-size: 20px;
+}
+.main-collection-main {
+}
+.main-collection-main__puma {
+}
+.main-collection-main__puma-img {
+}
+.main-collection-main__item-name-link {
+}
+.main-collection-main__item-name-text {
+}
+.main-collection-main__price {
+}
+.main-collection-main__btn {
+}
+.main-collection-main__reebok {
+}
+.main-collection-main__reebok-img {
+}
+.main-collection-main__quicksilver {
+}
+.main-collection-main__quicksilver-img {
 }
