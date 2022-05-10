@@ -15,6 +15,9 @@
   --block-why-choose-us-divider-color: #e0e0e0;
 }
 body {
-  max-width: 1440px;
+  width: 100%;
+}
+section {
+  width: 90%;
   margin: 0 auto;
 }
