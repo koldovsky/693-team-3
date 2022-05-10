@@ -1,19 +1,16 @@
 .new-arrivals {
-    width: 90%;
+    max-width: 100%;
+} 
+
+.new-arrivals-wrapper {
+    width: 100%;
     display: grid;
     grid-template-columns: 1.5fr 4fr;
     grid-template-rows: 1fr;
-
-
-     /* variable color*/
-     --offer-background: #222323;
-     --red-dot-and-price: #f40106;
-     --white-text: #ffffff;
-     --hr-line: #e0e0e0;
-     --grey-font: #717474;
 }
 .new-arrivals__wrap {
     width: 70%;
+    height: 30rem;
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: center;
@@ -27,20 +24,20 @@
 
 .new-arrivals__wrap__p1 {
     font-size: 52px;
-    color: var(--offer-background);
+    color: var(--block-name-color);
 }
 .new-arrivals__wrap__p1_dot {
     font-size: 52px;
-    color: var(--red-dot-and-price);
+    color: var(--block-dot-color);
 }
 .new-arrivals-line {
-    background-color: var(--hr-line);
+    background-color: var(--block-form-color);
     height: 2px;
     width: 30%;
 }
 .new-arrivals__wrap__p2 {
     font-size: 20px;
-    color: var(--grey-font);
+    color: var(--block-form-color);
 }
 .new-arrivals__wrap__btn {
     display: flex;
@@ -49,14 +46,14 @@
     align-items: center;
     width: 145px;
     height: 50px;
-    border: 2px solid var(--offer-background);
-    background-color: var(--white-text);
-    color: var(--offer-background);
+    border: 2px solid var(--block-name-color);
+    background-color: var(--block-white-color);
+    color: var(--block-name-color);
     text-decoration: none; 
 }
 .new-arrivals__wrap__btn:hover {
-    background-color: var(--offer-background);
-    color: var(--white-text);
+    background-color: var(--block-name-color);
+    color: var(--block-white-color);
 }
 
 .new-arrivals__slider {
@@ -73,10 +70,10 @@
 }
 .slider__item_span-name-a {
     text-decoration: none;
-    color: var(--grey-font);
+    color: var(--block-form-color);
 }
 .slider__item_span-price {
-    color: var(--red-dot-and-price);
+    color: var(--block-dot-color);
 }
 .slider__item_btn_a {
     display: flex;
@@ -86,12 +83,12 @@
     width: 125px;
     height: 50px;
     text-decoration: none;
-    background-color: var(--offer-background);
-    color: var(--white-text);
+    background-color: var(--block-name-color);
+    color: var(--block-white-color);
 }
 .slider__item_btn_a:hover {
-    background-color: var(--red-dot-and-price);
-    color: var(--white-text);
+    background-color: var(--block-dot-color);
+    color: var(--block-white-color);
 }
 .card {
     display: flex;
