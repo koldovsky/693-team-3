@@ -13,6 +13,9 @@
   --block-in-stock-color: rgb(97, 168, 84); /* In stock */
 }
 body {
-  max-width: 1440px;
+  width: 100%;
+}
+section {
+  width: 90%;
   margin: 0 auto;
 }
