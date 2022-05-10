@@ -74,7 +74,8 @@
     width: 35px;
     height: 35px;
     padding: 2px;
-    color: #f40106;
+    filter: invert(100%);
+    background-blend-mode:color-dodge;
 }
 
 .footer__social-links a{

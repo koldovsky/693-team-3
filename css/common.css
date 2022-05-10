@@ -1,15 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); font-family: 'Bebas Neue', cursive;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap'); font-family: 'Bebas Neue', cursive;
-font-family: 'PT Sans', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&family=PT+Serif:ital@1&display=swap");
 
-/* Gennadiy start */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
-/* Gennadiy end */
 :root {
-  --block-name-color: #222323;
-  --block-dot-color: #f40106;
-  font-family: 'PT Sans', sans-serif;
-  --font-titles: 'Bebas Neue', cursive;
-  --block-transparent-color: rgba(34, 35, 35, 0.46);
-  --block-secondary-color: rgb(113, 116, 116);
+  font-family: "PT Sans", sans-serif;
+  --font-titles: "Bebas Neue", cursive;
+  --font-basket: "PT Serif", serif;
+  --block-name-color: #222323; /* rgb(34, 35, 35) h2, h3*/
+  --block-dot-color: #f40106; /* rgb(244, 1, 6) dot, price, store homepage, product code */
+  --block-form-color: #717474; /* rgb(113, 116, 116) p, h4, price, description*/
+  --block-white-color: #fff; /* rgb(255, 255, 255) shop now*/
+  --block-input-color: rgba(34, 35, 35, 0.12);
+  --block-transparent-color: rgba(34, 35, 35, 0.46); /* trending */
+  --block-in-stock-color: rgb(97, 168, 84); /* In stock */
+  --block-about-us-color: #222323;
+  --block-why-choose-us-divider-color: #e0e0e0;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
 }

@@ -1,23 +1,25 @@
 .about-us__h2 {
-    font-family: 'Bebas Neue';
+    font-family: var(--font-titles);
     font-weight: 400;
     font-size: 38px;
     text-align: right;
     text-transform: uppercase;
+    color: var(--block-white-color);
 }
 .about-us__h2__dot {
     font-size: 38px;
-    color: #f40106;
+    color: var(--block-dot-color);
 }
 .about-us__p1 {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: white;
+    color: var(--block-white-color);
 }
 .about-us__p2 {
-    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: var(--block-white-color);
+}
+.about-us {
+    background-color: var(--block-about-us-color);
 }

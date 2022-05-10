@@ -6,10 +6,11 @@
 @import url(discounts.css);
 @import url(offer.css);
 @import url(new-arrivals.css);
-@import url(footer.css);
+@import url(index-footer.css);
 @import url(keep-fit-blog.css);
 @import url(new-fitness-collection.css);
 @import url(mid-season-sale.css);
-@import url(why-choose-us.css);
-@import url(about-us.css);
+@import url(index-why-choose-us.css);
+@import url(index-about-us.css);
 @import url(item-card.css);
+@import url(box.css);
