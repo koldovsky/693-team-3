@@ -11,7 +11,7 @@
     
 }
 .categories_1{
-    background: url(/img/img-head/sneakers.svg);
+    background: url(/img-head/sneakers.svg);
     height: 374.984px;
     width: 570px;
     position: relative;
@@ -22,7 +22,7 @@
     background-size: cover;
 }
 .categories_2{
-    background: url(/img/img-head/skate.png);
+    background: url(/img-head/skate.png);
     height: 374.984px;
     width: 270px;
     position: relative;
@@ -33,7 +33,7 @@
     background-size: cover;
 }
 .categories_3{
-    background: url(/img/img-head/topic.png);
+    background: url(/img-head/topic.png);
     height: 374.984px;
     width: 270px;
     position: relative;
@@ -55,15 +55,15 @@
 .t-text-content{
     font-weight: 400;
     font-size: 52px;
-    color: #222323;
+    color: var(--block-name-color);
     line-height: 1;
-    font-family: Bebas Neue,cursive;
+    font-family: var(--font-titles);
 }
 .text-brand-color{
-    color: #f40106!important;
+    color:  var(--block-dot-color)!important;
     font-size: 52px;
     line-height: 1.2;
-    font-family: Bebas Neue,cursive;
+    font-family: var(--font-titles);
     margin-left: 10px;
     font-weight: 400;
 }
@@ -71,7 +71,7 @@
     margin-top: 10px;
     height:2px;
     width:85px;
-    background-color:#f40106
+    background-color: var(--block-dot-color)
 }
 .url{
     margin-top: 25px;
@@ -81,7 +81,6 @@
     text-decoration: none;
     font-size: 14px;
     line-height: 1.8;
-    font-family: PT Sans,sans-serif;
     font-weight: 400;
 }
 .url a:hover{
