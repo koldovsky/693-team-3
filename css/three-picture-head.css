@@ -11,7 +11,7 @@
     
 }
 .categories_1{
-    background: url(/img/img-head/sneakers.svg);
+    background: url(../img/img-head/sneakers.svg);
     height: 374.984px;
     width: 570px;
     position: relative;
@@ -22,7 +22,7 @@
     background-size: cover;
 }
 .categories_2{
-    background: url(/img/img-head/skate.png);
+    background: url(../img/img-head/skate.png);
     height: 374.984px;
     width: 270px;
     position: relative;
@@ -33,7 +33,7 @@
     background-size: cover;
 }
 .categories_3{
-    background: url(/img/img-head/topic.png);
+    background: url(../img/img-head/topic.png);
     height: 374.984px;
     width: 270px;
     position: relative;
