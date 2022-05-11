@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.group_categories{
+
+.group_categories {
     position: relative;
     display: inline-flex;
     flex-wrap: wrap;
@@ -16,7 +17,7 @@
     block-size: border-box;
 }
 
-.categories_1{
+.categories_1 {
     background: url(../img/img-head/sneakers.svg);
     height: 374.984px;
     width: 570px;
@@ -30,7 +31,8 @@
     padding-top: 15px;
     margin-bottom: 20px;
 }
-.categories_2{
+
+.categories_2 {
     background: url(../img/img-head/skate.png);
     height: 374.984px;
     width: 270px;
@@ -42,7 +44,8 @@
     background-size: cover;
     margin-bottom: 20px;
 }
-.categories_3{
+
+.categories_3 {
     background: url(../img/img-head/topic.png);
     height: 374.984px;
     width: 270px;
@@ -53,46 +56,53 @@
     background-position: center;
     background-size: cover;
 }
-.text-line{
+
+.text-line {
     margin-top: 210px;
     margin-left: 45px;
 }
-.text-line_m{
+
+.text-line_m {
     margin-top: 210px;
     margin-left: 25px;
 }
 
-.t-text-content{
+.t-text-content {
     font-weight: 400;
     font-size: 52px;
     color: var(--block-name-color);
     line-height: 1;
     font-family: var(--font-titles);
 }
-.text-brand-color{
-    color:  var(--block-dot-color)!important;
+
+.text-brand-color {
+    color: var(--block-dot-color) !important;
     font-size: 52px;
     line-height: 1.2;
     font-family: var(--font-titles);
     margin-left: 10px;
     font-weight: 400;
 }
-.red-stripe{
+
+.red-stripe {
     margin-top: 10px;
-    height:2px;
-    width:85px;
+    height: 2px;
+    width: 85px;
     background-color: var(--block-dot-color)
 }
-.url{
+
+.url {
     margin-top: 25px;
 }
-.url a{
+
+.url a {
     color: black;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.8;
     font-weight: 400;
 }
-.url a:hover{
+
+.url a:hover {
     text-decoration: underline;
 }
