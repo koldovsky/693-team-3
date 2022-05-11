@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.mid-season-sale__collection-container {
+  width: 1432px;
+  margin: 0 auto;
+}
+
 .mid-season-sale__h3 {
   font-family: var(--font-titles);
   color: var(--block-name-color);
