@@ -13,6 +13,7 @@
   --block-in-stock-color: rgb(97, 168, 84); /* In stock */
   --block-about-us-color: #222323;
   --block-why-choose-us-divider-color: #e0e0e0;
+  --block-why-choose-us-icons-color: #9b9b9b;
 }
 body {
   width: 100%;
