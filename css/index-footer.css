@@ -1,12 +1,12 @@
 .footer {
-    background-color: #222323;
+    background-color: var(--block-name-color);
 }
 
 .footer__container {
-    color: #fff;
+    color: var(--block-white-color);
     display: flex; 
     border-bottom: 0.5px solid;
-    border-color: #fff;
+    border-color: var(--block-white-color);
     padding: 70px 50px 45px 50px;
     margin: 0 40px 0 40px;
 }
@@ -39,18 +39,18 @@
 .red-underline {
     height: 2px; 
     width: 19%; 
-    background-color: #f40106;
+    background-color: var(--block-dot-color);
     margin: 15px 0 15px 0;
 }
 
 .footer__anchor{
-    color:#fff;
+    color:var(--block-white-color);
     text-decoration: none;
     font-size: 16px;
 }
 
 .footer__anchor:hover {
-    color: #f40106;
+    color: var(--block-dot-color);
     text-decoration: underline;
 }
 .footer__li{
@@ -87,13 +87,13 @@
 }
 
 .footer__signature {
-    background-color: #222323;
+    background-color: var(--block-name-color);
     padding: 15px 15px 15px 15px;
 }
 
 .footer__signature-style {
     display: flex;
-    color: #fff;
+    color: var(--block-white-color);
     font-size: 14px;
     justify-content: space-between;
     padding:15px 50px 15px 50px;
