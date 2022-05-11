@@ -2,51 +2,49 @@
     margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
-
-
-    /* variable color*/
-    --offer-background: #222323;
-    --red-dot-and-price: #f40106;
-    --white-text: #ffffff;
 }
-
 .offer__wrap {
     width: 50%;
-    background-color: var(--offer-background);
+    background-color: var(--block-name-color);
+}
+.store-offer_img {
+    width: 50%;
 }
 .offer__wrap__container {
     width: 70%;
-    height: 100%;
+    height: 80%;
+    padding-top: 20%;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
 }
-
 .offer__wrap__h2 {
     font-size: 124px;
-    color: var(--white-text);
+    font-family: var(--font-titles);
+    color: var(--block-white-color);
 }
 .offer__wrap__h2_dot {
-    color: var(--red-dot-and-price);
+    color: var(--block-dot-color);
+    font-family: var(--font-titles);
     font-size: 93px;
 }
 .offer__wrap__p1 {
     font-size: 16px;
-    color: var(--white-text);
+    color: var(--block-white-color);
 }
 .offer__wrap__p1__new {
     font-size: 42px;
-    color: var(--red-dot-and-price);
+    color: var(--block-dot-color);
 }
 .offer__wrap__p1__old {
     text-decoration: line-through;
     font-size: 23px;
-    color: var(--white-text);
+    color: var(--block-white-color);
 }
 .offer__wrap__p2 {
     font-size: 20px;
-    color: var(--white-text);
+    color: var(--block-white-color);
     max-width: 85%;
 }
 .offer__wrap__details-link {
@@ -57,13 +55,13 @@
 }
 .offer__wrap__details-link_a {
     text-decoration: none;
-    color: var(--white-text);
+    color: var(--block-white-color);
     margin-right: 7px;
 }
 .offer__wrap__details-link_svg {
     width: 24px;
     height: 24px;
-    color: var(--white-text);
+    color: var(--block-white-color);
 }
 .offer__wrap__countdown {
     display: flex;
@@ -71,23 +69,25 @@
     justify-content: space-between;
 }
 .countdown-number {
-    width: 64px;
-    height: 64px;
-    border: 2px solid var(--white-text);
+    width: 99px;
+    height: 99px;
+    border: 1px solid var(--block-white-color);
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 .countdown-time {
+    grid-column: 1/2;
+    grid-row: 1/2;
     font-size: 36px;
-    color: var(--white-text);
+    color: var(--block-white-color);
     text-align: center;
 } 
 .countdown-text {
+    grid-column: 1/2;
+    grid-row: 2/3;
     font-size: 18px;
-    color: var(--white-text);
+    color: var(--block-white-color);
     text-align: center;
 }
-
-.store-offer_img {
-    width: 50%;
-}
-
