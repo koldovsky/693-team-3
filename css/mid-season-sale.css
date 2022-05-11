@@ -1,3 +1,8 @@
+.mid-season-sale {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .mid-season-sale__container {
   width: 1170px;
   margin: 0 auto;
@@ -6,6 +11,15 @@
 .mid-season-sale__collection-container {
   width: 1432px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* flex: 1; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
 }
 
 .mid-season-sale__h3 {
@@ -56,10 +70,36 @@
   font-family: var(--font-subtitles);
   font-size: 18px;
   font-weight: 400;
+  margin-top: 20px;
 }
+
+.mid-season-sale__item-name:hover {
+  text-decoration: underline;
+}
+
 .mid-season-sale__item-price {
   color: var(--block-dot-color);
   font-family: var(--font-subtitles);
   font-size: 18px;
   font-weight: 700;
+  margin: 20px 0 25px 0;
+}
+
+.mid-season-sale__cart {
+  width: 125px;
+  height: 50px;
+  display: block;
+  padding-top: 15px;
+  background-color: var(--block-name-color);
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--block-white-color);
+}
+.mid-season-sale__cart:hover {
+  background-color: var(--block-dot-color);
+  transition-duration: 0.25s;
+  /* transition-property: all; */
+  /* transition-delay: 0.1s; */
 }
