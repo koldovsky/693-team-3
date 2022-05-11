@@ -23,14 +23,18 @@
     font-stretch: 100%;
     padding-top: 250px;
 }
-
-.top-discount {
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 850px;
+.top-discount-contein{
     background-image: url(../img/discount-img/top-discount-banner.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.top-discount {
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 850px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-block-start: 100px;
