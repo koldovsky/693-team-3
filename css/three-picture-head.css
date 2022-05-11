@@ -3,23 +3,32 @@
     padding: 0;
 }
 .group_categories{
-    display: flex;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 auto;
     padding-top: 120px;
     padding-bottom: 60px;
-    margin-left: 351.500px;
-    margin-right: 351.500px;
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 15% 0 20%;
+    block-size: border-box;
 }
+
 .categories_1{
     background: url(../img/img-head/sneakers.svg);
     height: 374.984px;
     width: 570px;
     position: relative;
-    margin-right: 35px;
+    margin-right: 25px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
 .categories_2{
     background: url(../img/img-head/skate.png);
@@ -31,6 +40,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 20px;
 }
 .categories_3{
     background: url(../img/img-head/topic.png);

@@ -75,7 +75,8 @@
 }
 
 .all-discount {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .discount-20-banner {
