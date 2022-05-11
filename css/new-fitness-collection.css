@@ -26,6 +26,22 @@
 .newfitcollection__h2 span {
   color: var(--block-dot-color);
 }
+
+.newfitcollection__flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newfitcollection__playback {
+  margin: 0 0 100px 60px;
+}
+
+i {
+  font-size: 56px;
+  color: white;
+}
+
 .main-coll__anchor {
   width: 160px;
   height: 54px;
@@ -50,8 +66,4 @@
 }
 
 .newfitcollection__playback {
-}
-.fa-solid {
-}
-.fa-circle-play {
 }
