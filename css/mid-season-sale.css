@@ -6,6 +6,15 @@
 .mid-season-sale__collection-container {
   width: 1432px;
   margin: 0 auto;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  /* flex: 1; */
+  /* align-items: center; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* flex-direction: row-reverse; */
 }
 
 .mid-season-sale__h3 {
