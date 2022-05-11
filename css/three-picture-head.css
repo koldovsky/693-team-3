@@ -30,7 +30,6 @@
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 5px!important;
-    margin-top: 10px!important;
     background-size: 100%;
     margin-block-end: 100px;
 }
@@ -44,9 +43,9 @@
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 50px!important;
     background-size: 100%;
     margin-block-end: 100px;
+    margin-top: 95px;
 }
 
 .categories_3 {
@@ -60,6 +59,7 @@
     background-position: center;
     background-size: 100%;
     margin-block-end: 100px;
+    margin-top: 95px;
 }
 @media (max-width: 352px) {
     .group_categories{
@@ -80,18 +80,25 @@
         width: 290px;
         margin-right: 2%;
         margin-left: 2%;
+        margin-bottom: 1px;
     }
     .categories_2{
         height: 270px;
         width: 290px;
         margin-right: 2%;
         margin-left: 2%;
+        margin-top: 1px;
+        margin-bottom: 1px;
     }
     .categories_3{
         height: 270px;
         width: 290px;
         margin-right: 2%;
         margin-left: 2%;
+        margin-top: 50px;
+    }
+    .t-text-content{
+        font-size: 35px!important;
     }
     .text-line_m{
         margin-top: 40%!important;
