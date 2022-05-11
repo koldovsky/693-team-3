@@ -1,0 +1,45 @@
+.why-choose-us {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: 200px;
+    text-align: center;
+}
+.why-choose-us__h2 {
+    font-family: var(--font-titles);
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.why-choose-us__divider {
+    height: 2px;
+    width: 8%;
+    color: var(--block-why-choose-us-divider-color);
+    justify-content: center;
+    margin: auto;
+}
+.why-choose-us__slogan {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--block-form-color);
+    margin-bottom: 50px;
+}
+.why-choose-us__cards {
+    font-family: var(--font-titles);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.why-choose-us__icons{
+    height: 50px;
+    width: 50px;
+    color: var(--block-why-choose-us-icons-color);
+}
+.cards__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--block-form-color);
+    margin-bottom: 50px;
+}

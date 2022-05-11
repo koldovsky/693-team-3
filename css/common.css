@@ -11,4 +11,7 @@
   --block-input-color: rgba(34, 35, 35, 0.12);
   --block-transparent-color: rgba(34, 35, 35, 0.46); /* trending */
   --block-in-stock-color: rgb(97, 168, 84); /* In stock */
+  --block-about-us-color: #222323;
+  --block-why-choose-us-divider-color: #e0e0e0;
+  --block-why-choose-us-icons-color: #9b9b9b;
 }
