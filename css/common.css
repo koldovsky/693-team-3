@@ -15,10 +15,3 @@
   --block-why-choose-us-divider-color: #e0e0e0;
   --block-why-choose-us-icons-color: #9b9b9b;
 }
-body {
-  width: 100%;
-}
-section {
-  width: 90%;
-  margin: 0 auto;
-}

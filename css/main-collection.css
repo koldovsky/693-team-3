@@ -1,45 +1,81 @@
-.main-collection__h2 {
-    font-family: 'Bebas Neue', cursive;
-    color: var(--block-name-color);
-    font-size: 52px;
-    font-weight: 400;
-    text-align: center;
+.main-collection {
 }
-.main-collection__h2__dot {
+.main-collection__block-wraper {
+}
+.main-collection-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-collection-header-hero {
+    font-family: var(--font-titles);
+    font-size: 45px;
+}
+.main-collection-header-dot {
     color: var(--block-dot-color);
 }
-.devider-element {
+.main-collection-header-devider {
     height: 2px;
     width: 8%;
-    background-color: #e0e0e0;
+    background-color: var(--block-input-color);
 }
-.main-collection__description {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    color: rgb(113, 116, 116);
+
+.main-collection-header-description {
+    color: var(--block-form-color);
     font-size: 20px;
 }
-[name="button"] {
-    color: white;
-    background-color: var(--block-name-color);
+.main-collection-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 50px;
+    padding: 50px;
+    width: 100%;
 }
-[name="button"]:hover {
-    color: white;
-    background-color: var(--block-dot-color);
+.main-collection-main__puma {
 }
-.table-women__price {
-    color: var(--block-dot-color);
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+.main-collection-main__puma-img {
 }
-.table-women__item-name {
-    color: var(--block-secondary-color);
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+.main-collection-main__item-name-link {
     text-decoration: none;
+
 }
-.table-women__item-name:hover {
+.main-collection-main__item-name-text {
+    color: var(--block-form-color);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+}
+.main-collection-main__item-name-text:hover {
     text-decoration: underline;
+}
+.main-collection-main__price {
+    font-weight: 700;
+    color: var(--block-dot-color);
+    margin-top: 24px;
+}
+.main-collection-main__btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    text-decoration: none;
+    background-color: var(--block-name-color);
+    color: var(--block-white-color);
+    margin-top: 24px;
+}
+.main-collection-main__btn:hover {
+    background-color: var(--block-dot-color);
+ 
+}
+.main-collection-main__reebok {
+}
+.main-collection-main__reebok-img {
+}
+.main-collection-main__quicksilver {
+}
+.main-collection-main__quicksilver-img {
 }
