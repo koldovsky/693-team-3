@@ -1,19 +1,28 @@
 .main-collection {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 .main-collection__block-wraper {
+    align-items: center;
 }
 .main-collection-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+   
 }
 .main-collection-header-hero {
     font-family: var(--font-titles);
-    font-size: 45px;
+    font-size: 38px;
+    margin: 24px;
+
 }
 .main-collection-header-dot {
     color: var(--block-dot-color);
+}
+.main-collection-header-devider-wraper {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
 .main-collection-header-devider {
     height: 2px;
@@ -24,17 +33,36 @@
 .main-collection-header-description {
     color: var(--block-form-color);
     font-size: 20px;
+    line-height: 30px;
+    margin-top: 24px;
 }
-.main-collection-main {
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px;
-
+@media (min-width: 768px) {
+    .main-collection-header-hero {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) {
+    .main-collection-header-hero {
+        font-size: 52px;
+    }
 }
 .main-collection-main__puma {
+    margin-top: 50px;
 }
 .main-collection-main__puma-img {
+    width: 100%;
+}
+.main-collection-main__reebok {
+    margin-top: 50px;
+}
+.main-collection-main__reebok-img {
+    width: 100%;
+}
+.main-collection-main__quicksilver {
+    margin-top: 50px;
+}
+.main-collection-main__quicksilver-img {
+    width: 100%;
 }
 .main-collection-main__item-name-link {
     text-decoration: none;
@@ -70,11 +98,25 @@
     background-color: var(--block-dot-color);
  
 }
-.main-collection-main__reebok {
+
+@media (min-width: 768px) {
+    .main-collection-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .main-collection-main__quicksilver {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-self: center;
+    }
 }
-.main-collection-main__reebok-img {
-}
-.main-collection-main__quicksilver {
-}
-.main-collection-main__quicksilver-img {
+@media (min-width: 992px) {
+    .main-collection-main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .main-collection-main__quicksilver {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 }
