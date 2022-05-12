@@ -1,53 +1,54 @@
-.offer {
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row nowrap;
-}
-.offer__wrap {
-    width: 50%;
-    background-color: var(--block-name-color);
-}
-.store-offer_img {
-    width: 50%;
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+    .offer {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .offer__wrap {
+        background-color: var(--block-name-color);
+    }
+    .offer__wrap__container {
+        margin: 0 auto;
+        width: 81%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+    .offer__wrap__h2 {
+        font-size: 3.9rem;
+        font-family: var(--font-titles);
+        color: var(--block-white-color);
+    }
+    .offer__wrap__h2_dot {
+        font-size: 3.9rem;
+        font-family: var(--font-titles);
+        color: var(--block-dot-color);
+    }
+    .offer__wrap__p1 {
+        font-size: 1rem;
+        color: var(--block-white-color);
+    }
+    .offer__wrap__p1__new {
+        font-size: 42px;
+        color: var(--block-dot-color);
+    }
+    .offer__wrap__p1__old {
+        text-decoration: line-through;
+        font-size: 23px;
+        color: var(--block-white-color);
+    }
+
+
+    .store-offer_img {
+        width: 100%;
+        object-position: left top;
+        object-fit: cover;
+    }
+
 }
 
-@media screen and (min-width: 320px) and (orientation: landscape) { 
-  
 
-}
 
-.offer__wrap__container {
-    width: 70%;
-    height: 80%;
-    padding-top: 20%;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-}
-.offer__wrap__h2 {
-    font-size: 124px;
-    font-family: var(--font-titles);
-    color: var(--block-white-color);
-}
-.offer__wrap__h2_dot {
-    color: var(--block-dot-color);
-    font-family: var(--font-titles);
-    font-size: 93px;
-}
-.offer__wrap__p1 {
-    font-size: 16px;
-    color: var(--block-white-color);
-}
-.offer__wrap__p1__new {
-    font-size: 42px;
-    color: var(--block-dot-color);
-}
-.offer__wrap__p1__old {
-    text-decoration: line-through;
-    font-size: 23px;
-    color: var(--block-white-color);
-}
+
 .offer__wrap__p2 {
     font-size: 20px;
     color: var(--block-white-color);
