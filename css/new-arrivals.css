@@ -102,3 +102,8 @@
     align-items: flex-start;
     gap: 1rem;
 }
+
+
+section.new-arrivals {
+    display: none;
+}
