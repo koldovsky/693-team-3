@@ -1,6 +1,7 @@
 .main-collection {
     padding: 20px;
     width: 100%;
+    margin-bottom: 50px;
 }
 .main-collection__block-wraper {
     align-items: center;
