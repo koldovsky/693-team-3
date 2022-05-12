@@ -35,11 +35,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="header_ banner">
-                    <div class="selection_menu">
-                        <div class="logo">
-                            <img width="168" alt="logo" class="logo-image" src="img/img-head/logo-head.svg" />
-                        </div>
+            </div>
+            <div class="header_ banner">
+                <div class="selection_menu">
+                    <div class="logo">
+                        <img width="168" alt="logo" class="logo-image" src="img/img-head/logo-head.svg"/>
+                    </div>
+                    <div class="burger-menu">
+                        <input id="menu-toggle" type="checkbox"/>
+                        <label class="menu-btn" for="menu-toggle">
+                            <span></span>
+                        </label>
                         <div class="header_top-nav-menu">
                             <a class="links_h" href="#about-us">About us.</a>
                             <a class="links_h" href="#mid-season-sale">Sale.</a>
@@ -49,11 +55,11 @@
                         </div>
                         <div class="social-icon">
                             <a href="https://facebook.com"><img alt="facebook" class="facebook-image"
-                                    src="img/img-head/facebook.png" /></a>
+                                                                src="img/img-head/facebook.png"/></a>
                             <a href="https://instagram.com"><img alt="instagram" class="instagram-image"
-                                    src="img/img-head/instagram.png" /></a>
+                                                                 src="img/img-head/instagram.png"/></a>
                             <a href="https://youtube.com"><img alt="youtube" class="youtube-image"
-                                    src="img/img-head/youtube.png" /></a>
+                                                               src="img/img-head/youtube.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -127,72 +133,158 @@
         <!-- Pavlo
     Why Choose Us , About us
     -->
-        <section class="why-choose-us">
-            <div class="why-choose_us__container">
-                <div class="why-choose-us__wrapper">
-                    <h2 class="why-choose-us__h2">why choose us.</h2>
-                    <div class="why-choose-us__divider"></div>
-                    <p class="why-choose-us__slogan">Keep fit, follow a healthy lifestyle with us!</p>
+    <section class="why-choose-us">
+        <div class="why-choose_us__container">
+            <div class="why-choose-us__wrapper">
+                <h2 class="why-choose-us__h2">why choose us.</h2>
+                <div class="why-choose-us__divider"></div>
+                <p class="why-choose-us__slogan">Keep fit, follow a healthy lifestyle with us!</p>
+            </div>
+            <div class="why-choose-us__cards__wrapper">
+                <div class="why-choose-us__blocks">
+                    <img class="why-choose-us__icons" src="img/why-choose-us/bounce-svgrepo-com.svg" alt="bounce">
+                    <h3 class="why-choose-us__cards">free shipping over $90</h3>
+                    <p class="cards__text">
+                        Get advantage of our free worldwide shipping on all orders over $90.
+                    </p>
                 </div>
-                <div class="why-choose-us__cards__wrapper">
-                    <div class="why-choose-us__blocks">
-                        <img class="why-choose-us__icons" src="img/why-choose-us/bounce-svgrepo-com.svg" alt="bounce">
-                        <h3 class="why-choose-us__cards">free shipping over $90</h3>
-                        <p class="cards__text">
-                            Get advantage of our free worldwide shipping on all orders over $90.
-                        </p>
-                    </div>
-                    <div class="why-choose-us__blocks">
-                        <img class="why-choose-us__icons"
-                            src="img/why-choose-us/calendar-month-schedule-time-date-svgrepo-com.svg" alt="calendar" />
-                        <h3 class="why-choose-us__cards">easy 30-day return</h3>
-                        <p class="cards__text">
-                            If item does not suit you, please send it back to us within 30 days.
-                        </p>
-                    </div>
-                    <div class="why-choose-us__blocks">
-                        <img class="why-choose-us__icons" src="img/why-choose-us/bloom-svgrepo-com.svg" alt="bloom" />
-                        <h3 class="why-choose-us__cards">eco materials</h3>
-                        <p class="cards__text">
-                            All items are made with at least 30% recycled materials and zero virgin polyester.
-                        </p>
-                    </div>
-                    <div class="why-choose-us__blocks">
-                        <img class="why-choose-us__icons" src="img/why-choose-us/business-cash-coin-svgrepo-com.svg"
-                            alt="coin" />
-                        <h3 class="why-choose-us__cards">20 payment methods</h3>
-                        <p class="cards__text">
-                            Pay for your orders with credit cards, PayPal, AliPay, and other payment methods.
-                        </p>
-                    </div>
+                <div class="why-choose-us__blocks">
+                    <img class="why-choose-us__icons"
+                         src="img/why-choose-us/calendar-month-schedule-time-date-svgrepo-com.svg"
+                         alt="calendar"/>
+                    <h3 class="why-choose-us__cards">easy 30-day return</h3>
+                    <p class="cards__text">
+                        If item does not suit you, please send it back to us within 30 days.
+                    </p>
+                </div>
+                <div class="why-choose-us__blocks">
+                    <img class="why-choose-us__icons" src="img/why-choose-us/bloom-svgrepo-com.svg" alt="bloom"/>
+                    <h3 class="why-choose-us__cards">eco materials</h3>
+                    <p class="cards__text">
+                        All items are made with at least 30% recycled materials and zero virgin polyester.
+                    </p>
+                </div>
+                <div class="why-choose-us__blocks">
+                    <img class="why-choose-us__icons" src="img/why-choose-us/business-cash-coin-svgrepo-com.svg"
+                         alt="coin"/>
+                    <h3 class="why-choose-us__cards">20 payment methods</h3>
+                    <p class="cards__text">
+                        Pay for your orders with credit cards, PayPal, AliPay, and other payment methods.
+                    </p>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="about-us">
-                <img class="about-us__img" src="img/about-us/about-us-img.jpg" alt="fit guys" />
-                <h2 class="about-us__h2">
-                    about us
-                    <span class="about-us__h2__dot">.</span>
-                </h2>
-                <div>
-                    <p class="about-us__p1">
-                        Workout is an American fitness store created by fitness geeks for those who love sport
-                        and try to keep fit.
-                    </p>
-                    <p class="about-us__p2">
-                        At Workout, we know that great results do not come from standing still. We all need to
-                        move, push boundaries, and achieve better results every day. The mission of our shop is
-                        to support you in this.
-                    </p>
-                    <p class="about-us__p2">
-                        We're sure that everyday fitness can change your lives and bodies forever. And we keep
-                        selling comfortable and high-tech clothes and shoes for your outstanding results.
-                    </p>
-                </div>
-                <div class="social-icon">
-                    <a href="https://facebook.com"><img class="social-icon" src="img/img-head/facebook.png"
-                            alt="facebook icon" />
+        </div>
+    </section>
+    <section>
+        <div class="about-us">
+            <img class="about-us__img" src="img/about-us/about-us-img.jpg" alt="fit guys"/>
+            <h2 class="about-us__h2">
+                about us
+                <span class="about-us__h2__dot">.</span>
+            </h2>
+            <div>
+                <p class="about-us__p1">
+                    Workout is an American fitness store created by fitness geeks for those who love sport
+                    and try to keep fit.
+                </p>
+                <p class="about-us__p2">
+                    At Workout, we know that great results do not come from standing still. We all need to
+                    move, push boundaries, and achieve better results every day. The mission of our shop is
+                    to support you in this.
+                </p>
+                <p class="about-us__p2">
+                    We're sure that everyday fitness can change your lives and bodies forever. And we keep
+                    selling comfortable and high-tech clothes and shoes for your outstanding results.
+                </p>
+            </div>
+            <div class="social-icon">
+                <a href="https://facebook.com"><img class="social-icon" src="img/img-head/facebook.png"
+                                                    alt="facebook icon"/>
+                </a>
+                <a href="https://instagram.com"><img class="social-icon" src="img/img-head/instagram.png"
+                                                     alt="instagram icon"/>
+                </a>
+                <a href="https://youtube.com"><img class="social-icon" src="img/img-head/youtube.png"
+                                                   alt="youtube icon"/></a>
+            </div>
+        </div>
+    </section>
+    <!-- Gennadiy's block start
+    NEW FITNESS Collection, mid-season Sale -->
+    <section class="newfitcollection">
+        <div class="newfitcollection__container"><p class="newfitcollection__supheader">trending</p>
+            <div class="newfitcollection__flex-container">
+                <h2 class="newfitcollection__h2">new fitness collection<span>.</span></h2>
+                <a class="newfitcollection__playback" href="#"><i class="fa-solid fa-circle-play"></i></a></div>
+            <a class="main-coll__anchor" href="#main-coll">Shop Now →</a>
+        </div>
+    </section>
+    <section class="mid-season-sale" id="mid-season-sale">
+        <div class="mid-season-sale__container"><h3 class="mid-season-sale__h3">mid-season sale<span>.</span></h3>
+            <div class="mid-season-sale__devider"></div>
+            <p class="mid-season-sale__subheader">
+                Shop clothes and trainers that are chosen by thousands of our clients. Click on the image
+                to see the product details and click Add to Cart to make the purchase. We are committed to
+                give you the best buying experience!
+            </p></div>
+        <div class="mid-season-sale__collection">
+            <div class="mid-season-sale__collection-container">
+                <article class="mid-season-sale__item">
+                    <a href="adidas-cloudfoam-trainers.html"
+                    ><img
+                            src="img/mid-season-sale/adidas-trainers.jpg"
+                            alt="Adidas Cloudfoam Trainers"
+                            width="250"
+                    /></a>
+                    <a href="adidas-cloudfoam-trainers.html">
+                        <h4 class="mid-season-sale__item-name">Adidas Cloudfoam Trainers</h4>
+                    </a>
+                    <p class="mid-season-sale__item-price">$60,00</p>
+                    <a href="#" class="mid-season-sale__cart">Add to Cart</a>
+                </article>
+                <article class="mid-season-sale__item">
+                    <a href="reebok-workout-shorts.html"
+                    ><img src="img/mid-season-sale/reebok-shorts.jpg" alt="Reebok Workout Shorts" width="250"
+                    /></a>
+                    <a href="reebok-workout-shorts.html">
+                        <h4 class="mid-season-sale__item-name">Reebok Workout Shorts</h4>
+                    </a>
+                    <p class="mid-season-sale__item-price">$25,00</p>
+                    <a href="#" class="mid-season-sale__cart">Add to Cart</a>
+                </article>
+                <article class="mid-season-sale__item">
+                    <a href="puma-fitness-shoes-in-grey.html">
+                        <img
+                                src="img/mid-season-sale/puma-shoes.jpg"
+                                alt="Puma Fitness Shoes in Grey"
+                                width="250"
+                        /></a>
+                    <a href="puma-fitness-shoes-in-grey.html">
+                        <h4 class="mid-season-sale__item-name">Puma Fitness Shoes in Grey</h4>
+                    </a>
+                    <p class="mid-season-sale__item-price">$60,00</p>
+                    <a href="#" class="mid-season-sale__cart">Add to Cart</a>
+                </article>
+                <article class="mid-season-sale__item">
+                    <a href="puma-essential-tank-top.html">
+                        <img
+                                src="img/mid-season-sale/puma-tank-top.jpg"
+                                alt="Puma Essential Tank Top"
+                                width="250"
+                        /></a>
+                    <a href="puma-essential-tank-top.html">
+                        <h4 class="mid-season-sale__item-name">Puma Essential Tank Top</h4>
+                    </a>
+                    <p class="mid-season-sale__item-price">$43,00</p>
+                    <a href="#" class="mid-season-sale__cart">Add to Cart</a>
+                </article>
+                <article class="mid-season-sale__item">
+                    <a href="nike-classic-polo-t-shirt.html">
+                        <img
+                                src="img/mid-season-sale/nike-polo-tshirt.jpg"
+                                alt="Nike Classic Polo T-Shirt"
+                                width="250"
+                        />
                     </a>
                     <a href="https://instagram.com"><img class="social-icon" src="img/img-head/instagram.png"
                             alt="instagram icon" />
@@ -282,23 +374,22 @@
         <!-- Misha
     Get Your Discount, 30% OFF ALL jackets -->
 
-        <div class="top-discount">
-            <div class="top-discount-text">
-                <p class="top-discount-small">SALE OF THE MONTH</p>
-                <p class="top-discount-big">GET YOUR</p>
-                <p class="top-discount-big">Discount<span class="top-discount-punto">.</span></p>
-            </div>
-            <div class="box-to-key-top-discount">
-                <a href="#mid-season-sale" class="top-discount-button-test"> Shop Now →</a>
-            </div>
+    <div class="top-discount">
+        <div class="top-discount-text">
+            <p class="top-discount-small">SALE OF THE MONTH</p>
+            <p class="top-discount-big">GET YOUR</p>
+            <p class="top-discount-big">Discount<span class="top-discount-punto">.</span></p>
         </div>
-        <div class="all-discount">
-            <div class="discount-20-banner">
-                <div class="discount-20-border-text">
-                    <p class="discount-20-banner-text">20% OFF ALL T-shirts</p>
-                    <div class="box-to-key-20-discount">
-                        <a href="#mid-season-sale" class="discount-20-button">Shop Collection →</a>
-                    </div>
+        <div class="box-to-key-top-discount">
+            <a href="#mid-season-sale" class="top-discount-button-test"> Shop Now →</a>
+        </div>
+    </div>
+    <div class="all-discount">
+        <div class="discount-20-banner">
+            <div class="discount-20-border-text">
+                <p class="discount-20-banner-text">20% OFF ALL T-shirts</p>
+                <div class="box-to-key-20-discount">
+                    <a href="#mid-season-sale" class="discount-20-button">Shop Collection →</a>
                 </div>
             </div>
             <div class="discount-30-banner">
@@ -391,33 +482,33 @@
                     <span class="offer__wrap__details-link">
                         <a href="" class="offer__wrap__details-link_a">More Details </a>
                         <svg class="offer__wrap__details-link_svg" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
-                            viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"
-                            style="max-width: 100%" height="100%">
-                            <g fill="currentColor">
-                                <polygon
-                                    points="76.389,53.202 76.389,63.601 89.991,50.003 76.39,36.401 76.389,46.8 10.011,46.8 10.011,53.201  "
-                                    fill="currentColor"></polygon>
-                            </g>
-                        </svg>
-                    </span>
-                    <div id="countdown" class="offer__wrap__countdown countdown">
-                        <div class="countdown-number">
-                            <span class="days countdown-time"></span>
-                            <span class="countdown-text">Days</span>
-                        </div>
-                        <div class="countdown-number">
-                            <span class="hours countdown-time"></span>
-                            <span class="countdown-text">Hours</span>
-                        </div>
-                        <div class="countdown-number">
-                            <span class="minutes countdown-time"></span>
-                            <span class="countdown-text">Minutes</span>
-                        </div>
-                        <div class="countdown-number">
-                            <span class="seconds countdown-time"></span>
-                            <span class="countdown-text">Seconds</span>
-                        </div>
+                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
+                             viewBox="0 0 100 100"
+                             enable-background="new 0 0 100 100" xml:space="preserve" style="max-width: 100%"
+                             height="100%">
+              <g fill="currentColor">
+                <polygon
+                        points="76.389,53.202 76.389,63.601 89.991,50.003 76.39,36.401 76.389,46.8 10.011,46.8 10.011,53.201  "
+                        fill="currentColor"></polygon>
+              </g>
+                    </svg>
+                </span>
+                <div id="countdown" class="offer__wrap__countdown countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Days</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Hours</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Minutes</span>
+                    </div>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Seconds</span>
                     </div>
                 </div>
             </div>
@@ -530,46 +621,66 @@
             <a class="contacts__container-link" href="#workout@email.com">workout@email.com</a>
         </div>
     </section>
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__description-wrapper">
-                <img class="footer__logo" src="img/footer/footer-logo.svg" alt="logo" />
-                <p class="footer__description">
-                    Workout offers fitness clothing and footwear for those who want to change their lives
-                    and bodies for better.
-                </p>
-            </div>
-            <nav class="footer__navigation-wrapper">
-                <h4 class="footer__title">NAVIGATION</h4>
-                <div class="red-underline"></div>
-                <ul>
-                    <li class="footer__li"><a class="footer__anchor" href="#about-us">About us.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#main-coll">Collection.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#blog">Blog.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#Contacts">Contacts.</a></li>
-                </ul>
-            </nav>
-            <nav class="footer__shop-wrapper">
-                <h4 class="footer__title">SHOP</h4>
-                <div class="red-underline"></div>
-                <ul>
-                    <li class="footer__li"><a class="footer__anchor" href="#women">Women.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#man">Man.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#shoes">Shoes.</a></li>
-                    <li class="footer__li"><a class="footer__anchor" href="#sale">Sale.</a></li>
-                </ul>
-            </nav>
-            <div class="footer__social-wrapper">
-                <h4 class="footer__title">FOLLOW US</h4>
-                <div class="red-underline"></div>
-                <div class="footer__social-links">
-                    <a href="https://facebook.com"><img class="footer__social-icon" src="img/img-head/facebook.png"
-                            alt="facebook icon"></a>
-                    <a href="https://instagram.com"><img class="footer__social-icon" src="img/img-head/instagram.png"
-                            alt="instagram icon"></a>
-                    <a href="https://youtube.com"><img class="footer__social-icon" src="img/img-head/youtube.png"
-                            alt="youtube icon"></a>
-                </div>
+</main>
+<!-- Daniel
+  email, Contacts -->
+<section class="contacts">
+    <div class="contacts__map-wrapper">
+        <iframe class="contacts__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.236339475123!2d-74.17884348386438!3d40.730628979077736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537102f5f5df%3A0xc3d5dc357162b4ec!2s325%20University%20Ave!5e0!3m2!1sru!2sua!4v1652309229826!5m2!1sru!2sua"
+                allowfullscreen="map" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contacts__location-wrapper">
+        <h4 class="contacts__location-title">Workout</h4>
+        <p class="contacts__container-address">325 University Ave Newark, NJ 07102</p>
+    </div>
+    <div class="contacts__container">
+        <h2 class="main-collection-header-hero">CONTACTS<span class="main-collection-header-dot">.</span></h2>
+        <p class="contacts__container-address">325 University Ave Newark, NJ 07102</p>
+        <a class="contacts__container-link" href="#+1(234)5678900">+1 (234) 567 89 00</a>
+        <a class="contacts__container-link" href="#workout@email.com">workout@email.com</a>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__description-wrapper">
+            <img class="footer__logo" src="img/footer/footer-logo.svg" alt="logo"/>
+            <p class="footer__description">
+                Workout offers fitness clothing and footwear for those who want to change their lives
+                and bodies for better.
+            </p>
+        </div>
+        <nav class="footer__navigation-wrapper">
+            <h4 class="footer__title">NAVIGATION</h4>
+            <div class="red-underline"></div>
+            <ul>
+                <li class="footer__li"><a class="footer__anchor" href="#about-us">About us.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#main-coll">Collection.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#blog">Blog.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#Contacts">Contacts.</a></li>
+            </ul>
+        </nav>
+        <nav class="footer__shop-wrapper">
+            <h4 class="footer__title">SHOP</h4>
+            <div class="red-underline"></div>
+            <ul>
+                <li class="footer__li"><a class="footer__anchor" href="#women">Women.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#man">Man.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#shoes">Shoes.</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#sale">Sale.</a></li>
+            </ul>
+        </nav>
+        <div class="footer__social-wrapper">
+            <h4 class="footer__title">FOLLOW US</h4>
+            <div class="red-underline"></div>
+            <div class="footer__social-links">
+                <a href="https://facebook.com"><img class="footer__social-icon" src="img/img-head/facebook.png"
+                                                    alt="facebook icon"></a>
+                <a href="https://instagram.com"><img class="footer__social-icon" src="img/img-head/instagram.png"
+                                                     alt="instagram icon"></a>
+                <a href="https://youtube.com"><img class="footer__social-icon" src="img/img-head/youtube.png"
+                                                   alt="youtube icon"></a>
             </div>
         </div>
         <div class="footer__signature">
