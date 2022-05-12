@@ -128,12 +128,11 @@
     }
     
     .offer__wrap__container {
-        margin: 0 auto;
-        padding: 30% 0;
+        margin: 20% auto;
         width: 81%;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-around;
+        justify-content: space-between;
         row-gap: 2rem;
     }
     .offer__wrap__h2, .offer__wrap__h2_dot {
@@ -187,6 +186,7 @@
         color: var(--block-white-color);
     }
     .offer__wrap__countdown {
+        justify-self: flex-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -234,18 +234,7 @@
         text-align: center;
 
     }
-
-
-
-
-
     .store-offer_img {
         width: 50%;
-        object-position: left top;
-        object-fit: cover;
     }
-
-
-
-
 }
