@@ -236,5 +236,7 @@
     }
     .store-offer_img {
         width: 50%;
+        object-position: top left;
+        object-fit: cover;
     }
 }
