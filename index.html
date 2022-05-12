@@ -593,4 +593,133 @@
     </footer>
 </body>
 
+                    </div>
+                    <div data-sub-item="quantity" class="input_price">
+                        <div class="input-quantity">
+                            <input type="number" class="input" value="1">
+                            <div class="input-quantity_arrows">
+                                <div class="arrow_up" data="quantity-up">
+                                    <img alt="arrow-up"
+                                         src="img/basket/arrow-up.png">
+                                </div>
+                                <div class="arrow-down" data="quantity-down">
+                                    <img alt="arrow-down" src="img/basket/arrow-down.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-sub-item="amount" class="amount-3S-ui-text" data-amount="1200">$12,00</div>
+                </div>
+                <div data-sub-item="remove" class="remove_2cA">
+                    <img alt="basket" src="img/basket/bin.png">
+                </div>
+            </div>
+            <div class="ui-text price-details_2Qi">
+                <div class="price-details__column_1q9">
+                    <span class="price-details__cell_1QF total_1VG">Total:<!-- -->:&nbsp;</span>
+                </div>
+                <div class="price-details__column_1q9">
+                    <span class="price-details__cell_1QF total_1VG" data-sub-item="total"
+                          data-test="total">$60,00</span>
+                </div>
+            </div>
+
+            <div class="text_name_box">Place an order</div>
+            <div class="main_box">
+                <form data-cart-component="customer-details-form" data-test="customer-details-form">
+                    <div class="name_form">
+                        <div class="name_text_form">
+                            <label><span class="name-name" data-text="name">Name</span> <span class="star-symbol"
+                                                                                              data="required">*</span>
+                            </label>
+                        </div>
+                        <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
+                               class="form__input"
+                               placeholder="Your name">
+                        <div data="validation-text" class="validation-text">
+                        </div>
+                    </div>
+                    <div class="email_form">
+                        <div class="email_text_form"><span class="name-name" data-text="name">Email</span>
+                            <span class="star-symbol" data="required">*</span>
+                        </div>
+                        <input type="email" data-text="input-field" data-invalid-classname="invalid-field"
+                               class="form__input"
+                               placeholder="Your email address">
+                        <div data="validation-text" class="validation-text">
+
+                        </div>
+                    </div>
+                    <div class="phone_form">
+                        <div class="phone_text_form">
+                            <span class="name-name" data-text="name">Phone</span>
+                            <span class="star-symbol" data="required">*</span>
+                        </div>
+                        <input type="number" data-text="input-field" data-invalid-classname="invalid-field"
+                               class="form__input"
+                               placeholder="Your phone">
+                        <div data="validation-text" class="validation-text">
+
+                        </div>
+                    </div>
+                    <div class="comment_form">
+                        <div class="comment_text_form">
+                            <span class="name-name" data-text="name">Comment</span>
+                        </div>
+                        <textarea data-text="input-field" data-invalid-classname="invalid-field"
+                                  class="form__input_comment"
+                                  placeholder="Your comment">
+                            </textarea>
+                        <div data="validation-text" class="validation-text">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer_box">
+                <div class="button_order">
+                    <div class="button_red">
+                        <span class="button__content">Order</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="shopping-img" class="shopping-img">
+    <img alt="shopping bag" class="shopping-bag"
+         src="img/basket/shopping-bag.png"/>
+</div>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", hiddenCloseclick());
+    document.getElementById('mid-season-sale__cart').addEventListener("click", hiddenCloseclick);
+    function hiddenCloseclick() {
+        let x = document.getElementById('shopping-img');
+        if (x.style.display == "none"){
+            x.style.display = "block";
+        } else {
+            x.style.display = "none"}
+    };
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", hiddenCloseclick());
+    document.getElementById('shopping-img').addEventListener("click", hiddenCloseclick);
+    function hiddenCloseclick() {
+        let x = document.getElementById('box-main');
+        if (x.style.display == "none"){
+            x.style.display = "block";
+        } else {
+            x.style.display = "none"}
+    };
+</script>
+<script>
+    document.getElementById('cross').addEventListener("click", hiddenCloseclick);
+    let x = document.getElementById('box-main');
+    x.addEventListener('click', () => {
+        content.style.display = 'none'
+    })
+</script>
+</body>
 </html>
