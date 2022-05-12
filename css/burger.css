@@ -60,7 +60,6 @@
 
     .links_h {
         display: block;
-        margin-left: 30%;
         text-align: center;
         padding: 12px 24px;
         color: #333;
@@ -69,6 +68,8 @@
         font-weight: 600;
         text-decoration: none;
         transition-duration: .25s;
+        width: 150px!important;
+        margin-left: 35% !important;
     }
 
     .social-icon{
@@ -77,8 +78,7 @@
         background-color:  var(--block-name-color);
         z-index: 1;
         display: inline-flex;
-        margin-left: 100%;
-        margin-right: 100%;
+        margin-left: 95%;
         margin-top: 200%;
         padding: 0 0 30%;
         justify-content: center;

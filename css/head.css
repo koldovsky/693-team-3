@@ -84,7 +84,6 @@
     width: 500px;
     margin-left: 55px;
     margin-top: 15px;
-
 }
 
 .header_top-nav-menu a {
@@ -92,13 +91,14 @@
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 30px;
+    margin-left: 5%;
     width: 43.32655352011494%;
 }
 
 .links_h {
     position: relative;
     font-size: 1.25rem;
+
 }
 
 
