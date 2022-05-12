@@ -9,10 +9,18 @@
     margin-bottom: 30px;
 }
 
+.keep-fit__main {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 24px;
+    align-content: stretch;
+}
+
 .keep-fit__article1 {
     color: #FFFFFF9F;
     font-size: 22px;
     font-family: "Bebas Neue", cursive;
+    margin: 25px 0px;
 }
 
 .keep-fit__title {
@@ -21,28 +29,36 @@
     color: #FFFFFF;
 }
 
+.keep-fit__list {
+    margin: 25px 0px;
+}
+
 .keep-fit__img-list {
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .keep-fit__article2 {
     color: #FFFFFF;
     font-size: 20px;
+    line-height: 1.5;
 }
 
 .link.button {
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     color: #FFFFFF;
     background-color: transparent;
     box-sizing: border-box;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16.5px;
+    margin-left: 0%;
 }
 
 .keep-fit__button-link {
-    padding-left: 100px;
-    padding-top: 16.5px;
+    margin-bottom: ;
+
 }
 
 .link.button:hover {
@@ -50,18 +66,29 @@
     background-color: #FFFFFF;
 }
 
+
+/*CAROUSEL*/
+
 .keep-fit__img-carousel {
     width: 215px;
     height: 110px;
     border: 1px solid #717474;
-    
+
 }
 
+/*BLOG*/
+.keep-fit__blog-and-post {
+    margin: 30px 30px;
+}
+.keep-fit__blog{
+    
+}
 .keep-fit__blog-header {
     color: #222323;
     font-family: Bebas Neue, cursive;
     font-size: 38px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
 }
 
@@ -69,6 +96,16 @@
     color: #f40106;
     font-family: Bebas Neue, cursive;
     font-size: 52px;
+}
+.keep-fit__line{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.keep-fit__blog-line {
+    height: 2px;
+    width: 8%;
+    background-color: var(--block-input-color);
 }
 
 .keep-fit__blog-article {
@@ -82,8 +119,9 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    border: 1px solid #717474;
-    margin: 60px 160px 60px 160px;
-    padding-top: 220px;
-    padding-bottom: 220px;
-}
+    border: 1px solid rgba(33, 39, 54, 0.12);
+    display: flex;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
