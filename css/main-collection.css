@@ -35,12 +35,32 @@
     line-height: 30px;
     margin-top: 24px;
 }
-.main-collection-main {
+@media (min-width: 768px) {
+    .main-collection-header-hero {
+        font-size: 45px;
+    }
+}
+@media (min-width: 992px) {
+    .main-collection-header-hero {
+        font-size: 52px;
+    }
 }
 .main-collection-main__puma {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 .main-collection-main__puma-img {
+    width: 100%;
+}
+.main-collection-main__reebok {
+    margin-top: 50px;
+}
+.main-collection-main__reebok-img {
+    width: 100%;
+}
+.main-collection-main__quicksilver {
+    margin-top: 50px;
+}
+.main-collection-main__quicksilver-img {
     width: 100%;
 }
 .main-collection-main__item-name-link {
@@ -77,15 +97,25 @@
     background-color: var(--block-dot-color);
  
 }
-.main-collection-main__reebok {
-    margin-top: 50px;
+
+@media (min-width: 768px) {
+    .main-collection-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .main-collection-main__quicksilver {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-self: center;
+    }
 }
-.main-collection-main__reebok-img {
-    width: 100%;
-}
-.main-collection-main__quicksilver {
-    margin-top: 50px;
-}
-.main-collection-main__quicksilver-img {
-    width: 100%;
+@media (min-width: 992px) {
+    .main-collection-main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .main-collection-main__quicksilver {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 }
