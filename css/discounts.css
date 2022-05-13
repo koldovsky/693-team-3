@@ -203,6 +203,7 @@
     background-size: 200%;
     transition: .5s;
     margin-top: 90px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .discount-25-button:hover {
