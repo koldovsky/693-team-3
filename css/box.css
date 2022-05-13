@@ -3,6 +3,9 @@
     z-index: 1001;
     display: block;
     position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     margin: 10% auto calc(10% + 80px);

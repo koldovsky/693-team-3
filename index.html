@@ -685,8 +685,7 @@
                                 <span class="name-name" data-text="name">Comment</span>
                             </div>
                             <textarea data-text="input-field" data-invalid-classname="invalid-field"
-                                class="form__input_comment" placeholder="Your comment">
-                                </textarea>
+                                class="form__input_comment" placeholder="Your comment"></textarea>
                             <div data="validation-text" class="validation-text">
 
                             </div>
@@ -727,6 +726,7 @@
             let x = document.getElementById('box-main');
             if (x.style.display == "none") {
                 x.style.display = "block";
+                document.body.style.overflow = 'hidden'
             } else {
                 x.style.display = "none"
             }
