@@ -146,8 +146,8 @@
 
 .arrow_up {
     display: block;
-    width: 10;
-    height: 6;
+    width: 10rem;
+    height: 6rem;
     fill: none;
     cursor: pointer;
     user-select: none;
@@ -167,12 +167,12 @@
 
 .arrow-down {
     display: block;
-    width: 10;
-    height: 6;
+    width: 10rem;
+    height: 6rem;
     fill: none;
     cursor: pointer;
     user-select: none;
-    margin-top: -14px;
+    margin-top: -85px;
     margin-left: 38px;
     margin-right: 10px;
 }
@@ -401,7 +401,7 @@
     border: 2px solid #e0e0e0;
     --offset-vertical: 80px;
     --offset-horizontal: 30px;
-    top: calc(var(--offset-vertical));
+    top: var(--offset-vertical);
     right: var(--offset-horizontal);
     position: fixed;
     cursor: pointer;
