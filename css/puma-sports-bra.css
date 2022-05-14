@@ -57,15 +57,16 @@
 }
 .cart-item-info-link__wraper {
     display: flex;
-    justify-content: center;
 }
 .cart-item-info-link__text {
     color: var(--block-white-color);
     background-color: var(--block-dot-color);
     width: 100%;
+    text-align: center;
 }
 .cart-item-info-link__text:hover {
     background-color: black;
+    transition: all 0.5s;
 } 
 .cart-item-info-description {
 }
