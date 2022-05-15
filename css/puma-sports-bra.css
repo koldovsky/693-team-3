@@ -8,18 +8,22 @@
 }
 
 .card-item-info {
-    margin: 50px 0 0 ;
+    margin: 50px 0 0;
 }
+
 .card-main__link {
     color: var(--block-dot-color);
 }
+
 .card-main__slider {
     width: 100%;
 }
+
 @media (min-width: 768px) {
     .card-main-slider-info__container {
         display: flex;
     }
+
     .card-item-info {
         margin: 0;
         padding-left: 50px;
