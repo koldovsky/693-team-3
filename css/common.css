@@ -38,13 +38,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
   font-family: "PT Sans", sans-serif;
   --font-titles: "Bebas Neue", cursive;
   --font-basket: "PT Serif", serif;
+  --block-cart-item-devider-color: #edf0f5;
   --block-name-color: #222323; /* rgb(34, 35, 35) h2, h3*/
   --block-dot-color: #f40106; /* rgb(244, 1, 6) dot, price, store homepage, product code */
   --block-form-color: #717474; /* rgb(113, 116, 116) p, h4, price, description*/
   --block-white-color: #fff; /* rgb(255, 255, 255) shop now*/
-  --block-input-color: rgba(34, 35, 35, 0.12);
-  --block-transparent-color: rgba(34, 35, 35, 0.46); /* trending */
-  --block-in-stock-color: rgb(97, 168, 84); /* In stock */
+  --block-input-color: #2223231f;
+  --block-transparent-color: #22232375; /* trending */
+  --block-in-stock-color: #61a854; /* In stock */
   --block-about-us-color: #222323;
   --block-why-choose-us-divider-color: #e0e0e0;
   --block-why-choose-us-icons-color: #9b9b9b;
