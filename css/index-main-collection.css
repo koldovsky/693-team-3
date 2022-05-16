@@ -49,21 +49,17 @@
 .main-collection-main__puma {
     margin-top: 50px;
 }
-.main-collection-main__puma-img {
+.main-collection-main__img {
     width: 100%;
 }
 .main-collection-main__reebok {
     margin-top: 50px;
 }
-.main-collection-main__reebok-img {
-    width: 100%;
-}
+
 .main-collection-main__quicksilver {
     margin-top: 50px;
 }
-.main-collection-main__quicksilver-img {
-    width: 100%;
-}
+
 .main-collection-main__item-name-link {
     text-decoration: none;
     display: inline-block;
@@ -102,7 +98,7 @@
 }
 
 @media (min-width: 768px) {
-    .main-collection-main {
+    .main-collection-main__women {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
@@ -118,7 +114,7 @@
     }
 }
 @media (min-width: 992px) {
-    .main-collection-main {
+    .main-collection-main__women {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .main-collection-main__puma  {
