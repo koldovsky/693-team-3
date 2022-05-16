@@ -1,3 +1,6 @@
+.header_top-nav-menu {
+    width: 518px;
+}
 .card-main {
     align-items: center;
     padding: 70px 25px 133px;
@@ -27,6 +30,16 @@
     .card-item-info {
         margin: 0;
         padding-left: 50px;
+    }
+    .card-main__slider, .card-item-info{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 992px) {
+    .card-main__slider {
+        max-width: 410px;
+        margin: 0 0 0 70px;
     }
 }
 
