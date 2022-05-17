@@ -1,6 +1,8 @@
 .newfitcollection {
-  background: url(../img/new-fitness-collection/woman-with-mat-bg.jpg) center/cover no-repeat;
+  background: url(../img/new-fitness-collection/woman-with-mat-bg.jpg) no-repeat;
   height: 800px;
+  /* object-fit: contain;
+  object-position: left top; */
   padding: 220px;
 }
 
