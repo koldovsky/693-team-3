@@ -1,9 +1,22 @@
+.box-main{
+    background: rgba(0,0,0,.7);
+    z-index: 1001;
+    display: block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 10% auto calc(10% + 80px);
+}
 .box {
     width: 570px;
     margin: 10% auto calc(10% + 80px);
     position: relative;
     display: block;
     -webkit-font-smoothing: antialiased;
+    background: var(--block-white-color);
 }
 
 .box_head {
@@ -104,7 +117,7 @@
 
 .input_price {
     display: flex;
-    height: 18px;
+    height: 35px;
     padding: 8px 12px;
     margin-left: 16px;
     margin-right: 16px;
@@ -112,7 +125,7 @@
     box-shadow: inset 0 1px 0 var(--block-input-color);
     border-radius: 0;
     background: var(--block-white-color);
-    width: 49px;
+    width: 67px;
 
 }
 
@@ -136,13 +149,13 @@
 
 .arrow_up {
     display: block;
-    width: 10;
-    height: 6;
+    width: 10rem;
+    height: 6rem;
     fill: none;
     cursor: pointer;
     user-select: none;
-    margin-top: -27px;
-    margin-left: 40px;
+    margin-top: -20px;
+    margin-left: 38px;
     margin-right: 10px;
 }
 
@@ -157,13 +170,13 @@
 
 .arrow-down {
     display: block;
-    width: 10;
-    height: 6;
+    width: 10rem;
+    height: 6rem;
     fill: none;
     cursor: pointer;
     user-select: none;
-    margin-top: -14px;
-    margin-left: 40px;
+    margin-top: -85px;
+    margin-left: 38px;
     margin-right: 10px;
 }
 
@@ -321,7 +334,7 @@
     --w-get-input-background-color: rgba(34, 35, 35, 0.12);
     border-width: 0px;
     display: block;
-    width: 90%;
+    width: 93%;
     margin-top: 12px;
     appearance: none;
     box-shadow: none;
@@ -367,7 +380,7 @@
 .button_red {
     display: inline-block;
     position: relative;
-    background-color: #f40106;
+    background-color: var(--block-dot-color);
     border-color: transparent;
     border-style: solid;
     border-width: 2px;
@@ -376,9 +389,45 @@
     font-size: 16.5px;
     line-height: 1.3333em;
     letter-spacing: 0;
-    width: 10%;
     text-align: center;
     cursor: pointer;
     justify-items: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.shopping-img{
+    background-color: var(--block-white-color);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    border: 2px solid #e0e0e0;
+    --offset-vertical: 80px;
+    --offset-horizontal: 30px;
+    top: var(--offset-vertical);
+    right: var(--offset-horizontal);
+    position: fixed;
+    cursor: pointer;
+    user-select: none;
+    z-index: 8;
+    box-shadow: 0 0 1px rgb(33 39 54 / 4%), 0 2px 4px rgb(33 39 54 / 16%);
+}
+.shopping-img img{
+    margin: 13px 0 0 13px;
+    position: absolute;
+    width: 40px;
+}
+.shopping-img:hover{
+    overflow-y: hidden;
+}
+.box-main{
+    position: fixed;
+    top: -190px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1001;
 
 }

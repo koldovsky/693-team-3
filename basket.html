@@ -2,117 +2,129 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Basket</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <title>Basket</title>
 </head>
 
 <main>
-    <div class="box">
-        <div class="box_head" style="display: flex;">
-            <div class="shopping-card">Shopping cart</div>
-            <div class="cross">
-                <img width="12" alt="cross" class="logo-image" src="img/basket/cross.png">
-            </div>
-        </div>
-        <div class="all-shoping-card">
-            <div class="text_name_box">Products</div>
-            <div class="product-inner">
-                <div class="preview_photo" data-sub-item="preview">
-                    <img class="preview_photo_72" src="img/basket/72.jpg" alt="woman">
+    <div class="box-main">
+    <div class="shopping-basket">
+        <input id="menu-toggle" type="checkbox"/>
+        <label class="menu-btn" for="menu-toggle">
+            <span></span>
+        </label>
+        <div class="box">
+            <div class="box_head" style="display: flex;">
+                <div class="shopping-card">Shopping cart</div>
+                <div class="cross">
+                    <img width="12" alt="cross" class="logo-image" src="img/basket/cross.png">
                 </div>
-                <div class="info">
-                    <div class="name-wrapper">
-                        <div data-sub-item="name" class="info_name_text">Quicksilver Workout Top (2121)</div>
-
+            </div>
+            <div class="all-shoping-card">
+                <div class="text_name_box">Products</div>
+                <div class="product-inner">
+                    <div class="preview_photo" data-sub-item="preview">
+                        <img class="preview_photo_72" src="img/basket/72.jpg" alt="woman">
                     </div>
-                    <div data-sub-item="quantity" class="input_price">
-                        <div class="input-quantity">
-                            <input type="number" class="input" value="1">
-                            <div class="input-quantity_arrows">
-                                <div class="arrow_up" data="quantity-up">
-                                    <img alt="arrow-up"
-                                         src="img/basket/arrow-up.png">
-                                </div>
-                                <div class="arrow-down" data="quantity-down">
-                                    <img alt="arrow-down" src="img/basket/arrow-down.png">
+                    <div class="info">
+                        <div class="name-wrapper">
+                            <div data-sub-item="name" class="info_name_text">Quicksilver Workout Top (2121)</div>
+
+                        </div>
+                        <div data-sub-item="quantity" class="input_price">
+                            <div class="input-quantity">
+                                <input type="number" class="input" value="1">
+                                <div class="input-quantity_arrows">
+                                    <div class="arrow_up" data="quantity-up">
+                                        <img alt="arrow-up"
+                                             src="img/basket/arrow-up.png">
+                                    </div>
+                                    <div class="arrow-down" data="quantity-down">
+                                        <img alt="arrow-down" src="img/basket/arrow-down.png">
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div data-sub-item="amount" class="amount-3S-ui-text" data-amount="1200">$12,00</div>
                     </div>
-                    <div data-sub-item="amount" class="amount-3S-ui-text" data-amount="1200">$12,00</div>
+                    <div data-sub-item="remove" class="remove_2cA">
+                        <img alt="basket" src="img/basket/bin.png">
+                    </div>
                 </div>
-                <div data-sub-item="remove" class="remove_2cA">
-                    <img alt="basket" src="img/basket/bin.png">
+                <div class="ui-text price-details_2Qi">
+                    <div class="price-details__column_1q9">
+                        <span class="price-details__cell_1QF total_1VG">Total:<!-- -->:&nbsp;</span>
+                    </div>
+                    <div class="price-details__column_1q9">
+                    <span class="price-details__cell_1QF total_1VG" data-sub-item="total"
+                          data-test="total">$60,00</span>
+                    </div>
                 </div>
-            </div>
-            <div class="ui-text price-details_2Qi"><div class="price-details__column_1q9">
-                <span class="price-details__cell_1QF total_1VG">Total:<!-- -->:&nbsp;</span>
-            </div>
-                <div class="price-details__column_1q9">
-                    <span class="price-details__cell_1QF total_1VG" data-sub-item="total" data-test="total">$60,00</span>
-                </div>
-            </div>
 
-            <div class="text_name_box">Place an order</div>
-            <div class="main_box">
-                <form data-cart-component="customer-details-form" data-test="customer-details-form">
-                    <div class="name_form">
-                        <div class="name_text_form">
-                            <label><span class="name-name" data-text="name">Name</span> <span class="star-symbol" data="required">*</span>
-                            </label>
+                <div class="text_name_box">Place an order</div>
+                <div class="main_box">
+                    <form data-cart-component="customer-details-form" data-test="customer-details-form">
+                        <div class="name_form">
+                            <div class="name_text_form">
+                                <label><span class="name-name" data-text="name">Name</span> <span class="star-symbol"
+                                                                                                  data="required">*</span>
+                                </label>
+                            </div>
+                            <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
+                                   class="form__input"
+                                   placeholder="Your name">
+                            <div data="validation-text" class="validation-text">
+                            </div>
                         </div>
-                        <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
-                               class="form__input"
-                               placeholder="Your name">
-                        <div data="validation-text" class="validation-text">
-                        </div>
-                    </div>
-                    <div class="email_form">
-                        <div class="email_text_form"><span class="name-name" data-text="name">Email</span>
-                            <span class="star-symbol" data="required">*</span>
-                        </div>
-                        <input type="email" data-text="input-field" data-invalid-classname="invalid-field"
-                               class="form__input"
-                               placeholder="Your email address">
-                        <div data="validation-text" class="validation-text">
+                        <div class="email_form">
+                            <div class="email_text_form"><span class="name-name" data-text="name">Email</span>
+                                <span class="star-symbol" data="required">*</span>
+                            </div>
+                            <input type="email" data-text="input-field" data-invalid-classname="invalid-field"
+                                   class="form__input"
+                                   placeholder="Your email address">
+                            <div data="validation-text" class="validation-text">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="phone_form">
-                        <div class="phone_text_form">
-                            <span class="name-name" data-text="name">Phone</span>
-                            <span class="star-symbol" data="required">*</span>
-                        </div>
-                        <input type="number" data-text="input-field" data-invalid-classname="invalid-field"
-                               class="form__input"
-                               placeholder="Your phone">
-                        <div data="validation-text" class="validation-text">
+                        <div class="phone_form">
+                            <div class="phone_text_form">
+                                <span class="name-name" data-text="name">Phone</span>
+                                <span class="star-symbol" data="required">*</span>
+                            </div>
+                            <input type="number" data-text="input-field" data-invalid-classname="invalid-field"
+                                   class="form__input"
+                                   placeholder="Your phone">
+                            <div data="validation-text" class="validation-text">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="comment_form">
-                        <div class="comment_text_form">
-                            <span class="name-name" data-text="name">Comment</span>
-                        </div>
-                        <textarea data-text="input-field" data-invalid-classname="invalid-field"
-                                  class="form__input_comment"
-                                  placeholder="Your comment">
+                        <div class="comment_form">
+                            <div class="comment_text_form">
+                                <span class="name-name" data-text="name">Comment</span>
+                            </div>
+                            <textarea data-text="input-field" data-invalid-classname="invalid-field"
+                                      class="form__input_comment"
+                                      placeholder="Your comment">
                             </textarea>
-                        <div data="validation-text" class="validation-text">
+                            <div data="validation-text" class="validation-text">
 
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-            <div class="footer_box">
-                <div class="button_order">
-                    <div class="button_red">
-                        <span class="button__content">Order</span>
+                    </form>
+                </div>
+                <div class="footer_box">
+                    <div class="button_order">
+                        <div class="button_red">
+                            <span class="button__content">Order</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </main>

@@ -1,38 +1,38 @@
+.top-discount-text{
+    position: relative;
+}
 
 .top-discount-big {
-    font-family: Bebas Neue;
-    font-size: 120px;
-    font-stretch: 100%;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    display: block;
-    margin-left: 90px;
-    font-style: normal;
-    margin-top: -5px;
-    margin-bottom: -40px;
-    padding-left: 300px;
+    font-size: 90px;
+    margin-left: 19%;
+    line-height: 1;
+    font-family: var(--font-titles);
+    font-weight: 400;
+    position: relative;
+    min-width: 15px;
+    padding-top: 10px;
+    color: var(--block-white-color);
 }
 
 .top-discount-small {
-    color: rgba(255, 255, 255, 0.62);
-    margin-left: 90px;
-    padding-left: 300px;
-    font-family: Bebas Neue, cursive;
-    font-size: 25px;
-    font-stretch: 100%;
-    padding-top: 250px;
+    color: var(--block-form-color);
+    font-size: 24px;
+    margin-left: 19%;
+    font-family: var(--font-titles);
+    position: relative;
+    min-width: 320px;
+    padding-top: 205px;
+    margin-right: 5px;
 }
-.top-discount-contein{
+
+.top-discount {
     background-image: url(../img/discount-img/top-discount-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
-}
-.top-discount {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
-    box-sizing: border-box;
     height: 850px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -41,34 +41,7 @@
 
 .top-discount-punto {
     font-size: 130px;
-    color: red;
-}
-
-.discont-button {
-    padding: 18px 18px;
-    border-radius: 0;
-    font-size: 16.5px;
-    line-height: 1.3333em;
-    letter-spacing: 0;
-    background-color: rgb(255, 255, 255);
-    margin-left: 395px;
-    margin-top: 50px;
-}
-
-.top-discount-button {
-    color: black;
-    text-decoration: none;
-    font-family: PT Sans, sans-serif;
-    margin-left: 18px;
-    text-align: center;
-}
-
-.discont-button:hover {
-    background-color: #222323;
-}
-
-.top-discount-button:hover {
-    color: black;
+    color: var(--block-dot-color);
 }
 
 .all-discount {
@@ -99,9 +72,9 @@
 }
 
 .discount-20-banner-text {
-    font-family: Bebas Neue;
+    font-family: var(--font-titles);
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: var(--block-white-color);
     font-size: 35px;
     padding-top: 25px;
 }
@@ -112,7 +85,7 @@
     min-height: 100px;
     font-size: 14px;
     font-family: PT Sans, sans-serif;
-    color: #fff;
+    color: var(--block-white-color);
     background: linear-gradient(to left, #d7d2cc, #304352, #434343);
     text-decoration: none;
     padding: 10px 15px;
@@ -153,9 +126,9 @@
 }
 
 .discount-30-banner-text {
-    font-family: Bebas Neue;
+    font-family: var(--font-titles);
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: var(--block-white-color);
     font-size: 35px;
     padding-top: 25px;
 }
@@ -165,8 +138,7 @@
     align-items: center;
     min-height: 100px;
     font-size: 14px;
-    font-family: PT Sans, sans-serif;
-    color: #fff;
+    color: var(--block-white-color);
     background: linear-gradient(to left, #d7d2cc, #304352, #434343);
     text-decoration: none;
     padding: 10px 15px;
@@ -204,12 +176,12 @@
     height: 120px;
     width: 550px;
     text-align: center;
+    font-family: var(--font-titles);
 }
 
 .discount-25-banner-text {
-    font-family: Bebas Neue;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: var(--block-white-color);
     font-size: 35px;
     padding-top: 20px;
 }
@@ -223,8 +195,7 @@
     align-items: center;
     min-height: 100px;
     font-size: 14px;
-    font-family: PT Sans, sans-serif;
-    color: #fff;
+    color: var(--block-white-color);
     background: linear-gradient(to left, #d7d2cc, #304352, #434343);
     text-decoration: none;
     padding: 10px 15px;
@@ -232,6 +203,7 @@
     background-size: 200%;
     transition: .5s;
     margin-top: 90px;
+    font-family: "PT Sans", sans-serif;
 }
 
 .discount-25-button:hover {
@@ -239,25 +211,149 @@
 }
 
 .top-discount-button-test {
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-    font-size: 20px;
-    font-family: PT Sans, sans-serif;
-    color: #fff;
-    background: linear-gradient(to left, #bdc3c7, #b21f1f, #D3CCE3);
+    color: var(--block-white-color);
     text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 10px;
-    background-size: 200%;
-    transition: .5s;
-    margin: 390px;
 }
 
-.top-discount-button-test:hover {
+.box-to-key-top-discount:hover {
     background-position: right;
 }
 
 .box-to-key-top-discount {
-    margin-top: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 18px 30px;
+    background: linear-gradient(to left, #bdc3c7, #b21f1f, #D3CCE3);
+    font-size: 16.5px;
+    line-height: 1.3333em;
+    letter-spacing: 0;
+    transition: .5s;
+    margin-top: 40px;
+    margin-left: 19%;
+    cursor: pointer;
+    background-size: 200%;
+}
+
+@media (max-width: 992px) {
+    .top-discount {
+        position: static;
+        height: 640px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    .top-discount-small {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-left: 3%;
+    }
+
+    .top-discount-big {
+        display: block;
+    }
+
+    .top-discount-big {
+        font-size: 400%;
+        margin-left: 3%;
+    }
+
+    .top-discount-big {
+        margin-left: 3%;
+        font-size: 400%;
+    }
+
+    .top-discount-big {
+        margin-left: 3%;
+        font-size: 400%;
+    }
+
+    .box-to-key-top-discount {
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 352px) {
+    .all-discount {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .discount-20-banner {
+        justify-content: center;
+        justify-items: center;
+        height: 174px;
+        width: 272px;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: -5px;
+        margin-bottom: 55px;
+    }
+
+    .discount-20-border-text{
+        height: 116px;
+        width: 245px;
+        margin-left: 4%;
+        margin-top: 10%!important;
+        font-size: 30px;
+    }
+
+    .discount-20-banner-text{
+        font-size: 26px!important;
+    }
+
+    .discount-30-banner {
+        justify-content: center;
+        justify-items: center;
+        height: 174px;
+        width: 272px;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: -5px;
+        margin-bottom: 55px;
+    }
+
+    .discount-30-border-text{
+        height: 116px;
+        width: 245px;
+        margin-left: 4%;
+        margin-top: 10%!important;
+        font-size: 30px;
+    }
+
+    .discount-30-banner-text{
+        font-size: 26px!important;
+    }
+    .discount-25-banner {
+        justify-content: center;
+        justify-items: center;
+        height: 174px;
+        width: 272px;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: -5px;
+        margin-bottom: 55px;
+    }
+
+    .discount-25-border-text{
+        height: 116px;
+        width: 245px;
+        margin-left: 4%;
+        margin-top: 10%!important;
+        font-size: 30px;
+    }
+
+    .discount-25-banner-text{
+        font-size: 26px!important;
+    }
 }
