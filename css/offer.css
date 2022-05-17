@@ -234,7 +234,7 @@
         text-align: center;
 
     }
-    .store-offer_img {
+    .store-offer__img {
         width: 50%;
         object-position: top left;
         object-fit: cover;
