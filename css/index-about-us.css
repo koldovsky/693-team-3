@@ -3,6 +3,9 @@
     flex-flow: column wrap;
     background-color: var(--block-about-us-color);
 }
+.about-us__img {
+    display: block;
+}
 .about-us__h2 {
     font-family: var(--font-titles);
     font-weight: 400;
