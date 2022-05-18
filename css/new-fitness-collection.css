@@ -1,13 +1,14 @@
 .newfitcollection {
-  background: url(../img/new-fitness-collection/woman-with-mat-bg.jpg) no-repeat;
+  background: url(../img/new-fitness-collection/woman-with-mat-bg.jpg) center center/cover no-repeat;
   height: 800px;
+  width: 100%;
   /* object-fit: contain;
   object-position: left top; */
-  padding: 220px;
+  padding-top: 220px;
 }
 
 .newfitcollection__container {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -18,22 +19,53 @@
 }
 .newfitcollection__h2 {
   font-family: var(--font-titles);
-  font-size: 124px;
+  font-size: 64px;
   font-weight: normal;
   color: var(--block-name-color);
-  width: 500px;
-  line-height: 124px;
+  /* width: 500px; */
+  /* line-height: 124px; */
   margin-bottom: 50px;
 }
+
+@media (max-width: 575px) {
+  .newfitcollection__h2 {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 575px) {
+  .newfitcollection__h2 {
+    font-size: 88px;
+  }
+}
+
+@media (min-width: 768px) {
+  .newfitcollection__h2 {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 992px) {
+  .newfitcollection__h2 {
+    font-size: 108px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newfitcollection__h2 {
+    font-size: 124px;
+  }
+}
+
 .newfitcollection__h2 span {
   color: var(--block-dot-color);
 }
 
-.newfitcollection__flex-container {
+/* .newfitcollection__flex-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+} */
 
 .newfitcollection__playback {
   margin: 0 0 100px 60px;
