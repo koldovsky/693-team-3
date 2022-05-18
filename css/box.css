@@ -11,7 +11,7 @@
     margin: 10% auto calc(10% + 80px);
 }
 .box {
-    width: 570px;
+    width: 30%;
     margin: 10% auto calc(10% + 80px);
     position: relative;
     display: block;
@@ -86,7 +86,7 @@
 
 .info {
     display: flex;
-    padding: 0 20px 0 30px;
+    padding: 0 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
@@ -96,7 +96,7 @@
     align-items: center;
     -webkit-box-flex: 1;
     flex: 1;
-    width: 400px;
+    width: 20%;
     height: 36px;
 }
 
