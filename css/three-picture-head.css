@@ -14,7 +14,7 @@
     padding-bottom: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 15% 0 20%;
+    margin: 0 0 0 20%;
 }
 
 .categories_1 {
@@ -59,6 +59,24 @@
     background-size: 100%;
     margin-block-end: 100px;
     margin-top: 95px;
+}
+@media (max-width: 923px) {
+    .categories_1 {
+        width: 60%;
+    }
+}
+@media (max-width: 817px) {
+    .categories_1 {
+        width: 392px;
+    }
+}
+@media (max-width: 540px) {
+    .group_categories {
+        margin-left: 5%;
+    }
+    .categories_1 {
+        width: 320px;
+    }
 }
 @media (max-width: 352px) {
     .group_categories{
