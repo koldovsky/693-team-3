@@ -64,10 +64,6 @@
   line-height: 30px;
 }
 
-.mid-season-sale__collection article {
-  margin-right: 10px;
-}
-
 .mid-season-sale__item a {
   text-decoration: none;
   font-family: var(--font-subtitles);
