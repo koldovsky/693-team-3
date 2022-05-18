@@ -10,12 +10,17 @@
     overflow-y: scroll;
 }
 .box {
-    width: 30%;
+    width: 570px;
     margin: 10% auto calc(10% + 80px);
     position: relative;
     display: block;
     -webkit-font-smoothing: antialiased;
     background: var(--block-white-color);
+}
+@media (max-width: 1200px) {
+    .box{
+        width: 470px;
+    }
 }
 
 .box_head {
@@ -250,7 +255,19 @@
     margin-top: 8px;
     line-height: 22px;
 }
+@media (max-width: 470px) {
+    .box{
+        width: 100%;
+    }
+    .product-inner{
+        flex: 1 1 auto;
+        flex-direction: column;
+    }
+    .input_price{
+        margin-right: 2px;
+    }
 
+}
 .main_box {
     display: block;
     position: relative;
