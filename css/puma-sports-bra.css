@@ -1,6 +1,7 @@
 .header_top-nav-menu {
     width: 518px;
 }
+
 .card-main {
     align-items: center;
     padding: 70px 25px 133px;
@@ -31,11 +32,14 @@
         margin: 0;
         padding-left: 50px;
     }
-    .card-main__slider, .card-item-info{
+
+    .card-main__slider,
+    .card-item-info {
         max-width: 50%;
         flex-basis: 50%;
     }
 }
+
 @media (min-width: 992px) {
     .card-main__slider {
         max-width: 410px;
@@ -74,6 +78,49 @@
 
 .card-item-info__btns {
     display: flex;
+}
+
+.card-item-info__counter {
+    border: 1px solid var(--block-form-color);
+    border-radius: 5%;
+    width: 75px;
+    height: 40px;
+    margin-right: 16px;
+    padding: 8px 12px;
+    display: flex;
+}
+
+.counter-number {
+    width: calc(100% - 10px);
+    padding: 3px;
+
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.counter-arrows-down {
+    margin-top: 10px;
+}
+
+.counter-arrows-down,
+.counter-arrows-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter-arrows-down:hover,
+.counter-arrows-up:hover {
+    cursor: pointer;
+}
+
+.svg-arrow-down {
+    transform: rotate(180deg);
 }
 
 .card-item-info-link {
