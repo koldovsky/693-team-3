@@ -161,6 +161,12 @@
     text-decoration: none;
 }
 
+.footer__clock {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
 .footer__signature {
     background-color: var(--block-name-color);
     padding: 15px 15px 15px 15px;
