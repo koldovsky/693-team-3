@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) { 
+@media screen and (min-width: 320px)  { /*and (max-width: 767px)*/
     .offer {
         display: flex;
         flex-flow: column nowrap;
@@ -64,52 +64,56 @@
         color: var(--block-white-color);
     }
     .offer__wrap__countdown {
+        width: 80%;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-content: space-between;
-        gap: 25px;
+        gap: 1rem;
     }
-    .days {
+    .day {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .hours {
+    .hour {
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    .minutes {
+    .minute {
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .seconds {
+    .second {
         grid-column: 4/5;
         grid-row: 1/2;
     }
     .countdown-number {
+        aspect-ratio: 1/1;
         border: 1px solid var(--block-white-color);
         border-radius: 0.3rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
         justify-items: center;
     }
     .countdown-time {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        font-size: 2rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
         color: var(--block-white-color);
     } 
     .countdown-text {
-        grid-column: 2/3;
-        grid-row: 3/4;
-        align-self: end;
-        display: block;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
         font-size: 0.5rem;
-        font-weight: 400;
         color: var(--block-white-color);
-        text-align: center;
-
     }
     .store-offer_img {
         width: 100%;
@@ -185,7 +189,7 @@
         height: 24px;
         color: var(--block-white-color);
     }
-    .offer__wrap__countdown {
+    /* .offer__wrap__countdown {
         justify-self: flex-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -193,19 +197,19 @@
         justify-content: space-between;
         gap: 25px;
     }
-    .days {
+    .day {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .hours {
+    .hour {
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    .minutes {
+    .minute {
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .seconds {
+    .second {
         grid-column: 4/5;
         grid-row: 1/2;
     }
@@ -233,7 +237,7 @@
         color: var(--block-white-color);
         text-align: center;
 
-    }
+    } */
     .store-offer__img {
         width: 50%;
         object-position: top left;
