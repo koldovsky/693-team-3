@@ -1,0 +1,35 @@
+.storepage__container {
+    width: 100%;
+}
+
+.storepage__wrapper {
+    margin: auto;
+    padding: 4%;
+}
+
+.storepage__title {
+
+}
+
+.storepage__all-products {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+@media (min-width: 768px){
+    .storepage__all-products{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px){
+    .storepage__all-products{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.storepage__product-wrapper {
+    margin: 10px;
+}
