@@ -33,3 +33,22 @@
 .storepage__product-wrapper {
     margin: 10px;
 }
+
+.storepage__product-btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    text-decoration: none;
+    background-color: var(--block-dot-color);
+    color: var(--block-white-color);
+    margin-top: 24px;
+    transition: all 0.3s;
+}
+
+.storepage__product-btn:hover {
+    background-color: var(--block-name-color);
+    color: var(--block-white-color);
+}
