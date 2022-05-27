@@ -148,7 +148,7 @@
                   </a>
                 </div>
                 <div class="main-collection-main__price">${product.price}</div>
-                <a href="#" class="storepage__product-btn">Add to Cart</a>
+                <a class="storepage__product-btn">Add to Cart</a>
             </div>
          `;
         }
