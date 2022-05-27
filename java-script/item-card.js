@@ -9,9 +9,18 @@
         counterNumber.innerHTML = curentNumber;
     }
 
-    function addItem(item) {
-        return item + '2';
+    function addItem() {
+        curentNumber += 1;
+        renderNumber();
     }
 
-    console.log(renderNumber());
+    function substractItem() {
+        curentNumber === 1 ? curentNumber : (curentNumber -= 1);
+        renderNumber();
+    }
+
+    counterArrowUp.addEventListener('click', addItem);
+    counterArrowDown.addEventListener('click', substractItem);
+
+    renderNumber();
 })();
