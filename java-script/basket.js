@@ -26,7 +26,7 @@ function openCloseBasket(){
     }
     hide.addEventListener("click", () => {
         content.style.display = "none";
-        // document.body.style.overflow = "scroll";
+        document.body.style.overflow = "scroll";
     });
 }
 openCloseBasket()
