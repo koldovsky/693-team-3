@@ -156,4 +156,13 @@
 
     const products = JSON.parse(productsJson);
     renderProducts(products);
+
+   const productsAmount = document.querySelector('.storepage__title');
+
+   let curentNumber = 'Products' + '(' + products.length + ')';
+   function renderNumber() {
+      productsAmount.innerHTML = curentNumber;
+   }
+
+   renderNumber();
 })();

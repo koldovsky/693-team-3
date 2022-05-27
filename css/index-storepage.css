@@ -8,7 +8,22 @@
 }
 
 .storepage__title {
+    font-size: 30px;
+    font-family: var(--font-titles);
+    padding: 4%;
+}
 
+@media (min-width: 768px){
+    .storepage__title {
+        font-size: 33px;
+        padding-left: 1%;
+    }
+}
+
+@media (min-width: 992px){
+    .storepage__title {
+        font-size: 36px;
+    }
 }
 
 .storepage__all-products {
