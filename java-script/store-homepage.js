@@ -4,7 +4,7 @@
 		{
 			"id": "1",
 			"name": "Adidas Cloudfoam Trainers",
-			"price": "$60",
+			"price": "$60,00",
 			"imgUrl": "img/mid-season-sale/adidas-trainers.jpg",
 			"href": "adidas-cloudfoam-trainers.html"
 		},
