@@ -7,6 +7,7 @@
     const buttonShoes = document.querySelector('.tab-shoes');
 
     const tabs = [tabWomen, tabMen, tabShoes];
+    const buttons = [buttonWomen, buttonMen, buttonShoes]
 
     let i = 0;
     let j = 1;
@@ -14,8 +15,11 @@
 
     function showTab() {
         tabs[i].classList.add('tabs-block-activator');
+        buttons[i].classList.add('tabs-red-line-activator')
         tabs[j].classList.remove('tabs-block-activator');
+        buttons[j].classList.remove('tabs-red-line-activator')
         tabs[k].classList.remove('tabs-block-activator');
+        buttons[k].classList.remove('tabs-red-line-activator')
     }
      showTab();
     function womenShow() {

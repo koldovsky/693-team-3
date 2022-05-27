@@ -85,6 +85,9 @@
 .tabs-block-activator {
     display: contents;
 }
+.tabs-red-line-activator {
+    border-bottom: 2px solid var(--block-dot-color);
+}
 
 .nav-devider {
     height: 1px;
