@@ -127,15 +127,6 @@
           </div>
         </div>
       </div>
-      <script>
-        window.onload = function () {
-          document.body.classList.add("loaded_hiding");
-          window.setTimeout(function () {
-            document.body.classList.add("loaded");
-            document.body.classList.remove("loaded_hiding");
-          }, 500);
-        };
-      </script>
       <!-- Daryna
     header loder
      -->
@@ -941,42 +932,10 @@
     <div id="shopping-img" class="shopping-img">
       <img alt="shopping bag" class="shopping-bag" src="img/basket/shopping-bag.png" />
     </div>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", hiddenCloseclick());
-      document.getElementById("mid-season-sale__cart").addEventListener("click", hiddenCloseclick);
-      function hiddenCloseclick() {
-        let x = document.getElementById("shopping-img");
-        if (x.style.display == "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-      }
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", hiddenCloseclick());
-      document.getElementById("shopping-img").addEventListener("click", hiddenCloseclick);
-      function hiddenCloseclick() {
-        let x = document.getElementById("box-main");
-        if (x.style.display == "none") {
-          x.style.display = "block";
-          document.body.style.overflow = "hidden";
-        } else {
-          x.style.display = "none";
-        }
-      }
-    </script>
-    <script>
-      document.getElementById("cross").addEventListener("click", hiddenCloseclick);
-      let x = document.getElementById("box-main");
-      x.addEventListener("click", () => {
-        content.style.display = "none";
-        // document.body.style.overflow = "scroll";
-      });
-    </script>
     <script src="java-script/mid-season-sale__collection.js"></script>
     <script src="java-script/countdown.js"></script>
     <script src="java-script/footer-clock.js"></script>
+    <script src="java-script/basket.js"></script>
+    <script src="java-script/loader.js"></script>
   </body>
 </html>
