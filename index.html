@@ -119,15 +119,6 @@
                 </div>
             </div>
         </div>
-        <script>
-            window.onload = function () {
-                document.body.classList.add("loaded_hiding");
-                window.setTimeout(function () {
-                    document.body.classList.add("loaded");
-                    document.body.classList.remove("loaded_hiding");
-                }, 500);
-            };
-        </script>
         <!-- Daryna
     header loder
      -->
@@ -505,64 +496,21 @@
             </div>
             <img src="img/offer_new-arrivals/offer-section.jpg" alt="sport girl" class="store-offer__img" />
         </section>
-        <section class="new-arrivals" id="new-arrivals-id-block">
-            <div class="new-arrivals-wrapper">
-                <div class="new-arrivals__wrap">
-                    <h2 class="new-arrivals__wrap__p1">
-                        New arrivals<span class="new-arrivals__wrap__p1_dot">.</span>
-                    </h2>
-                    <div class="new-arrivals-line"></div>
-                    <p class="new-arrivals__wrap__p2">Be the first to buy new items by leading brands.</p>
-                    <a href="" class="new-arrivals__wrap__btn">More products</a>
-                </div>
-                <div class="new-arrivals__slider">
-                    <article class="new-arrivals__slider__item_1 card">
-                        <img src="img/offer_new-arrivals/nike.jpeg" alt="" class="slider__item_img" />
-                        <h4>
-                            <a href="nike-winter-jacket.html" class="slider__item_span-name-a">Nike Winter Jacket in
-                                Blue</a>
-                        </h4>
-                        <span class="slider__item_span-price">$85,00</span>
-                        <a href="" class="slider__item_btn_a">Add to Cart</a>
-                    </article>
-                    <article class="new-arrivals__slider__item_2 card">
-                        <img src="img/offer_new-arrivals/adidas.jpeg" alt="" class="slider__item_img" />
-                        <h4>
-                            <a href="adidas-black-trainers.html" class="slider__item_span-name-a">Adidas Black
-                                Trainers</a>
-                        </h4>
-                        <span class="slider__item_span-price">$60,00</span>
-                        <a href="" class="slider__item_btn_a">Add to Cart</a>
-                    </article>
-                    <article class="new-arrivals__slider__item_3 card">
-                        <img src="img/offer_new-arrivals/reebok.jpeg" alt="" class="slider__item_img" />
-                        <h4>
-                            <a href="reebok-red-duster.html" class="slider__item_span-name-a">Reebok Red Duster</a>
-                        </h4>
-                        <span class="slider__item_span-price">$60,00</span>
-                        <a href="" class="slider__item_btn_a">Add to Cart</a>
-                    </article>
-                    <article class="new-arrivals__slider__item_4 card">
-                        <img src="img/offer_new-arrivals/asics.jpeg" alt="" class="slider__item_img" />
-                        <h4>
-                            <a href="asics-jordan-2000.html" class="slider__item_span-name-a">Asics Jordan 2000</a>
-                        </h4>
-                        <span class="slider__item_span-price">$200,00</span>
-                        <a href="" class="slider__item_btn_a">Add to Cart</a>
-                    </article>
-                    <article class="new-arrivals__slider__item_5 card">
-                        <img src="img/offer_new-arrivals/puma.jpeg" alt="" class="slider__item_img" />
-                        <h4>
-                            <a href="puma-textile-running-shoes.html" class="slider__item_span-name-a">Puma Textile
-                                Running Shoes</a>
-                        </h4>
-                        <span class="slider__item_span-price">$62,00</span>
-                        <a href="" class="slider__item_btn_a">Add to Cart</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- Victoria
+      <section class="new-arrivals" id="new-arrivals-id-block">
+        <div class="new-arrivals-wrapper">
+          <div class="new-arrivals__wrap">
+            <h2 class="new-arrivals__wrap__p1">
+              New arrivals<span class="new-arrivals__wrap__p1_dot">.</span>
+            </h2>
+            <div class="new-arrivals-line"></div>
+            <p class="new-arrivals__wrap__p2">Be the first to buy new items by leading brands.</p>
+            <a href="" class="new-arrivals__wrap__btn">More products</a>
+          </div>
+          <div class="new-arrivals__slider">
+          </div>
+        </div>
+      </section>
+      <!-- Victoria
     KEEP FIT WITH COMFORT, Blog. -->
         <!--KEEP FIT WITH COMFORT-->
         <section class="keep-fit">
@@ -804,44 +752,12 @@
     <div id="shopping-img" class="shopping-img">
         <img alt="shopping bag" class="shopping-bag" src="img/basket/shopping-bag.png" />
     </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", hiddenCloseclick());
-        document.getElementById("mid-season-sale__cart").addEventListener("click", hiddenCloseclick);
-        function hiddenCloseclick() {
-            let x = document.getElementById("shopping-img");
-            if (x.style.display == "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", hiddenCloseclick());
-        document.getElementById("shopping-img").addEventListener("click", hiddenCloseclick);
-        function hiddenCloseclick() {
-            let x = document.getElementById("box-main");
-            if (x.style.display == "none") {
-                x.style.display = "block";
-                document.body.style.overflow = "hidden";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        document.getElementById("cross").addEventListener("click", hiddenCloseclick);
-        let x = document.getElementById("box-main");
-        x.addEventListener("click", () => {
-            content.style.display = "none";
-            // document.body.style.overflow = "scroll";
-        });
-    </script>
     <script src="java-script/mid-season-sale__collection.js"></script>
     <script src="java-script/index-main-collection.js"></script>
     <script src="java-script/countdown.js"></script>
+    <script src="java-script/new-arrivals__slider.js"></script>
     <script src="java-script/footer-clock.js"></script>
-</body>
-
+    <script src="java-script/basket.js"></script>
+    <script src="java-script/loader.js"></script>
+  </body>
 </html>

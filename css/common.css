@@ -50,3 +50,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
   --block-why-choose-us-divider-color: #e0e0e0;
   --block-why-choose-us-icons-color: #9b9b9b;
 }
+html {
+  scroll-behavior: smooth;
+}
