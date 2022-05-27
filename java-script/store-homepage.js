@@ -136,7 +136,7 @@
         for (const product of products) {
             productsContainer.innerHTML += `
             <div class="storepage__product-wrapper">
-                <a href="puma-sports-bra.html"><img
+                <a href="${product.href}"><img
                     class="main-collection-main__img"
                     src="${product.imgUrl}"
                     alt="${product.name}"
