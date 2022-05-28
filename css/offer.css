@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px)  { /*and (max-width: 767px)*/
+@media screen and (min-width: 320px)  { 
     .offer {
         display: flex;
         flex-flow: column nowrap;
@@ -9,10 +9,10 @@
     .offer__wrap__container {
         margin: 0 auto;
         padding: 10% 0;
-        width: 81%;
+        width: 92%;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: space-around;
+        justify-content: space-between;
         row-gap: 2rem;
     }
     .offer__wrap__h2 {
@@ -64,7 +64,7 @@
         color: var(--block-white-color);
     }
     .offer__wrap__countdown {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -90,30 +90,33 @@
     }
     .countdown-number {
         aspect-ratio: 1/1;
-        border: 1px solid var(--block-white-color);
+        border: 1px solid var(--block-form-color);
         border-radius: 0.3rem;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-items: center;
     }
     .countdown-time {
         grid-column: 1/2;
         grid-row: 1/2;
         display: flex;
-        justify-content: center;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: min(max(16px, calc(1rem + (36 - 16) * ((100vw - 320px) / (767 - 320)))), 36px);
+        min-height: 0vw;
+        font-weight: 600;
         color: var(--block-white-color);
     } 
     .countdown-text {
         grid-column: 1/2;
         grid-row: 2/3;
         display: flex;
+        flex-flow: column nowrap;
         justify-content: center;
-        align-items:flex-start;
-        font-size: 0.5rem;
-        color: var(--block-white-color);
+        align-items: center;
+        color: var(--block-form-color);
     }
     .store-offer_img {
         width: 100%;
@@ -129,115 +132,23 @@
     .offer__wrap {
         width: 50%;
         background-color: var(--block-name-color);
-    }
-    
+    } 
     .offer__wrap__container {
         margin: 20% auto;
-        width: 81%;
+        width: 67%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
         row-gap: 2rem;
     }
+    .countdown-time {
+        font-size: 20px;
+        padding: 15%;
+    }
     .offer__wrap__h2, .offer__wrap__h2_dot {
         font-size: min(max(93px, calc(5.8125rem + ((1vw - 7.68px) * 2.691))), 124px);
         min-height: 0vw;
       }
-    .offer__wrap__h2 {
-        font-family: var(--font-titles);
-        color: var(--block-white-color);
-    }
-    .offer__wrap__h2_dot {
-        font-family: var(--font-titles);
-        color: var(--block-dot-color);
-    }
-    .offer__wrap__p1 {
-        font-size: 1rem;
-        font-weight: 700;
-        color: var(--block-white-color);
-    }
-    .offer__wrap__p1__new {
-        font-size: 2.6rem;
-        font-weight: 700;
-        color: var(--block-dot-color);
-    }
-    .offer__wrap__p1__old {
-        text-decoration: line-through;
-        font-size: 1.4rem;
-        font-weight: 700;
-        color: var(--block-white-color);
-    }
-    .offer__wrap__p2 {
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 30px;
-        color: var(--block-white-color);
-    }
-    .offer__wrap__details-link {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: start;
-        align-items: center;
-    }
-    .offer__wrap__details-link_a {
-        text-decoration: none;
-        color: var(--block-white-color);
-        margin-right: 7px;
-    }
-    .offer__wrap__details-link_svg {
-        width: 24px;
-        height: 24px;
-        color: var(--block-white-color);
-    }
-    /* .offer__wrap__countdown {
-        justify-self: flex-end;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-content: space-between;
-        gap: 25px;
-    }
-    .day {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .hour {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    .minute {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    .second {
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
-    .countdown-number {
-        border: 1px solid var(--block-white-color);
-        border-radius: 0.3rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-items: center;
-    }
-    .countdown-time {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        font-size: 2rem;
-        color: var(--block-white-color);
-    } 
-    .countdown-text {
-        grid-column: 2/3;
-        grid-row: 3/4;
-        align-self: end;
-        display: block;
-        font-size: 0.5rem;
-        font-weight: 400;
-        color: var(--block-white-color);
-        text-align: center;
-
-    } */
     .store-offer__img {
         width: 50%;
         object-position: top left;
