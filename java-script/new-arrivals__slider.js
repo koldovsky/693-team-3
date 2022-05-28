@@ -8,7 +8,7 @@
           >
         </h4>
         <span class="slider__item_span-price">$85,00</span>
-        <a href="" class="slider__item_btn_a">Add to Cart</a>
+        <a class="slider__item_btn_a">Add to Cart</a>
             </article>`,
         `<article class="new-arrivals__slider__item_2 card">
         <img src="img/offer_new-arrivals/adidas.jpeg" alt="" class="slider__item_img" />
@@ -18,7 +18,7 @@
           >
         </h4>
         <span class="slider__item_span-price">$60,00</span>
-        <a href="" class="slider__item_btn_a">Add to Cart</a>
+        <a class="slider__item_btn_a">Add to Cart</a>
             </article>`,
         `<article class="new-arrivals__slider__item_3 card">
       <img src="img/offer_new-arrivals/reebok.jpeg" alt="" class="slider__item_img" />
@@ -28,7 +28,7 @@
         >
       </h4>
       <span class="slider__item_span-price">$60,00</span>
-      <a href="" class="slider__item_btn_a">Add to Cart</a>
+      <a class="slider__item_btn_a">Add to Cart</a>
             </article>`,
         `<article class="new-arrivals__slider__item_4 card">
         <img src="img/offer_new-arrivals/asics.jpeg" alt="" class="slider__item_img" />
@@ -38,7 +38,7 @@
           >
         </h4>
         <span class="slider__item_span-price">$200,00</span>
-        <a href="" class="slider__item_btn_a">Add to Cart</a>
+        <a class="slider__item_btn_a">Add to Cart</a>
             </article>`,
         `<article class="new-arrivals__slider__item_5 card">
         <img src="img/offer_new-arrivals/puma.jpeg" alt="" class="slider__item_img" />
@@ -48,7 +48,7 @@
           >
         </h4>
         <span class="slider__item_span-price">$62,00</span>
-        <a href="" class="slider__item_btn_a">Add to Cart</a>
+        <a class="slider__item_btn_a">Add to Cart</a>
             </article>`  
     ]
 

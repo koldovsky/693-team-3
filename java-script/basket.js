@@ -1,42 +1,76 @@
-( function(){
-function getBasket(){
+(function () {
+    function getBasket() {
 
-    const content = document.getElementById("shopping-img")
-    const show = document.querySelectorAll(".mid-season-sale__cart")
-    const showInStore = document.querySelectorAll(".storepage__product-btn")
-    for(const product of showInStore){
-        if (content.style.display = "none"){
-            product.addEventListener("click", () => {
-                content.style.display = "block"
-            })
+        const content = document.getElementById("shopping-img")
+        const show = document.querySelectorAll(".mid-season-sale__cart")
+        const mainCollection = document.querySelectorAll(".main-collection-main__btn")
+        const sliderItem = document.querySelectorAll(".slider__item_btn_a")
+        const showInStore = document.querySelectorAll(".storepage__product-btn")
+        if (content.style.display = "none") {
+            for (const product of showInStore) {
+                product.addEventListener("click", () => {
+                    content.style.display = "block"
+                })
+            }
+            for (const product of sliderItem) {
+                product.addEventListener("click", () => {
+                    content.style.display = "block"
+                })
+            }
+            for (const product of mainCollection) {
+                product.addEventListener("click", () => {
+                    content.style.display = "block"
+                })
+            }
+            for (const product of show) {
+                product.addEventListener("click", () => {
+                    content.style.display = "block"
+                })
+            }
+        } else {
+            content.style.display = "none";
         }
     }
-    for(const product of show){
-        if (content.style.display = "none"){
-            product.addEventListener("click", () => {
-                content.style.display = "block"
-            })
-        }
-    }
-}
-getBasket();
 
-function openCloseBasket(){
-    const content = document.getElementById("box-main")
-    const show = document.getElementById("shopping-img")
-    const hide = document.getElementById("cross")
-    if (content.style.display = "none"){
-        show.addEventListener("click", () => {
-            content.style.display = "block"
-            document.body.style.overflow = "hidden";
+    getBasket();
+
+    function openCloseBasket() {
+        const content = document.getElementById("box-main")
+        const show = document.getElementById("shopping-img")
+        const hide = document.getElementById("cross")
+        if (content.style.display = "none") {
+            show.addEventListener("click", () => {
+                content.style.display = "block"
+                document.body.style.overflow = "hidden";
+            })
+        } else {
+            content.style.display = "none";
+        }
+        hide.addEventListener("click", () => {
+            content.style.display = "none";
+            document.body.style.overflow = "scroll";
+        });
+    }
+
+    openCloseBasket();
+    function appDownArrow() {
+        const priseInput = document.querySelector("#prise-input");
+        const upArrow = document.querySelector(".arrow_up img")
+        const downArrow = document.querySelector(".arrow-down img")
+        let count = 0;
+        upArrow.addEventListener("click", function(){
+            count++;
+            priseInput.value = count;
+        });
+        downArrow.addEventListener("click", function(){
+            if (count > 0){
+                count--;
+                priseInput.value = count;
+            } else {
+                count = 0;
+                priseInput.value = count;
+            }
         })
-    }else {
-        content.style.display = "none";
     }
-    hide.addEventListener("click", () => {
-        content.style.display = "none";
-        document.body.style.overflow = "scroll";
-    });
-}
-openCloseBasket();
+    appDownArrow();
 })();

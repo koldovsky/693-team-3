@@ -1,4 +1,4 @@
-(function(){
+(function () {
     window.onload = function () {
         document.body.classList.add("loaded_hiding");
         window.setTimeout(function () {
