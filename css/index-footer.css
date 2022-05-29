@@ -38,7 +38,7 @@
     .footer__description-wrapper{
         display: flex;
         align-items: flex-start;
-        padding: 20px 20px 40px 20px;
+        padding: 0 20px 10px 20px;
         width: 40%;
     }
 }
@@ -75,7 +75,7 @@
         display: flex;
         align-items: flex-start;
         width: 20%;
-        padding: 20px 20px 40px 20px;
+        padding: 0 20px 10px 20px;
     }
 }
 
@@ -127,7 +127,7 @@
         display: flex;
         align-items: flex-start;
         width: 15%;
-        padding: 20px 20px 40px 20px;
+        padding: 0 20px 10px 20px;
     }
 }
 
@@ -144,7 +144,7 @@
         display: flex;
         align-items: flex-end;
         width: 25%;
-        padding: 20px 20px 40px 20px;
+        padding: 0 20px 10px 20px;
     }
 }
 
@@ -169,7 +169,7 @@
 
 .footer__signature {
     background-color: var(--block-name-color);
-    padding: 15px 15px 15px 15px;
+    
 }
 
 .footer__signature-style {
@@ -177,7 +177,7 @@
     color: var(--block-white-color);
     font-size: 14px;
     justify-content: space-between;
-    padding:15px 50px 15px 50px;
+    padding:15px 50px 0 50px;
     text-transform: uppercase;
     font-family: var(--font-titles);
 }

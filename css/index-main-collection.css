@@ -60,7 +60,6 @@
 .main-collection-tabs-items {
     display: flex;
     justify-content: center;
-    padding: 0 0 16px;
 }
 
 .tabs-item__container {
@@ -75,6 +74,7 @@
 
 .tabs-item:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .tabs-block {
@@ -82,8 +82,11 @@
     position: relative;
 }
 
-.tabs-block:target {
+.tabs-block-activator {
     display: contents;
+}
+.tabs-red-line-activator {
+    border-bottom: 2px solid var(--block-dot-color);
 }
 
 .nav-devider {
@@ -142,7 +145,7 @@
 }
 
 @media (min-width: 768px) {
-    .tabs-block:target {
+    .tabs-block-activator {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
@@ -162,7 +165,7 @@
 }
 
 @media (min-width: 992px) {
-    .tabs-block:target {
+    .tabs-block-activator {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
