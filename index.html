@@ -700,7 +700,7 @@
 
                 <div class="text_name_box">Place an order</div>
                 <div class="main_box">
-                    <form data-cart-component="customer-details-form" data-test="customer-details-form">
+                    <form class="box-contact-form" data-cart-component="customer-details-form" data-test="customer-details-form" method="post">
                         <div class="name_form">
                             <div class="name_text_form">
                                 <label><span class="name-name" data-text="name">Name</span>
@@ -708,7 +708,7 @@
                                 </label>
                             </div>
                             <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
-                                class="form__input" placeholder="Your name" />
+                                class="form__input" placeholder="Your name" name="user-name"/>
                             <div data-validation="text" class="validation-text"></div>
                         </div>
                         <div class="email_form">
@@ -717,7 +717,7 @@
                                 <span class="star-symbol" data-star="required">*</span>
                             </div>
                             <input type="email" data-text="input-field" data-invalid-classname="invalid-field"
-                                class="form__input" placeholder="Your email address" />
+                                class="form__input" placeholder="Your email address"  name="user-email"/>
                             <div data-validation="text" class="validation-text"></div>
                         </div>
                         <div class="phone_form">
@@ -726,7 +726,7 @@
                                 <span class="star-symbol" data-star="required">*</span>
                             </div>
                             <input type="text" data-text="input-field" data-invalid-classname="invalid-field"
-                                class="form__input" placeholder="Your phone" />
+                                class="form__input" placeholder="Your phone"  name="user-phone"/>
                             <div data-validation="text" class="validation-text"></div>
                         </div>
                         <div class="comment_form">
@@ -734,7 +734,7 @@
                                 <span class="name-name" data-text="name">Comment</span>
                             </div>
                             <textarea data-text="input-field" data-invalid-classname="invalid-field"
-                                class="form__input_comment" placeholder="Your comment"></textarea>
+                                class="form__input_comment" placeholder="Your comment"  name="user-comment"></textarea>
                             <div data-validation="text" class="validation-text"></div>
                         </div>
                     </form>
@@ -742,11 +742,12 @@
                 <div class="footer_box">
                     <div class="button_order">
                         <div class="button_red">
-                            <span class="button__content">Order</span>
+                            <span type="submit" class="button__content">Order</span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="contact-form-status"></div>
         </div>
     </div>
     <div id="shopping-img" class="shopping-img">
@@ -759,8 +760,6 @@
     <script src="java-script/footer-clock.js"></script>
     <script src="java-script/basket.js"></script>
     <script src="java-script/loader.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="number_plugin/number_plugin.js" type="text/javascript"></script>
-    <link href="number_plugin/number_plugin.css" type="text/css" rel="stylesheet">
+    <script src="java-script/basket-contact-form.js"></script>
   </body>
 </html>
