@@ -5,10 +5,10 @@
             event.preventDefault();
             const status = document.querySelector('.contact-form-status');
             const data = JSON.stringify({
-                name: document.querySelector('.box-contact-form input[name=user-name]').valueOf(),
-                email: document.querySelector('.box-contact-form input[name=user-email]').valueOf(),
-                phone: document.querySelector('.box-contact-form input[name=user-phone]').valueOf(),
-                comment: document.querySelector('.box-contact-form input[name=user-comment]').valueOf()
+                name: document.querySelector('.box-contact-form input[name=user-name]').value,
+                email: document.querySelector('.box-contact-form input[name=user-email]').value,
+                phone: document.querySelector('.box-contact-form input[name=user-phone]').value,
+                comment: document.querySelector('.box-contact-form input[name=user-comment]').value
             });
             try{
                 await fetch(event.target.action,{

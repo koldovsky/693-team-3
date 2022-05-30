@@ -385,12 +385,13 @@
     text-align: center;
 }
 
-.button__content {
+.button__content_1 {
     display: inline-block;
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
     color: var(--block-white-color);
+    background-color: var(--block-dot-color);
 }
 
 .button_red {
