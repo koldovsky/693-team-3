@@ -7,43 +7,44 @@
     const buttonShoes = document.querySelector('.tab-shoes');
 
     const tabs = [tabWomen, tabMen, tabShoes];
-    const buttons = [buttonWomen, buttonMen, buttonShoes]
+    const buttons = [buttonWomen, buttonMen, buttonShoes];
 
-    let i = 0;
-    let j = 1;
-    let k = 2;
+    let firstTabIndex = 0;
+    let secondTabIndex = 1;
+    let thirdTabIndex = 2;
 
     function showTab() {
-        tabs[i].classList.add('tabs-block-activator');
-        buttons[i].classList.add('tabs-red-line-activator')
-        tabs[j].classList.remove('tabs-block-activator');
-        buttons[j].classList.remove('tabs-red-line-activator')
-        tabs[k].classList.remove('tabs-block-activator');
-        buttons[k].classList.remove('tabs-red-line-activator')
+        tabs[firstTabIndex].classList.add('tabs-block-activator');
+        buttons[firstTabIndex].classList.add('tabs-red-line-activator');
+        tabs[secondTabIndex].classList.remove('tabs-block-activator');
+        buttons[secondTabIndex].classList.remove('tabs-red-line-activator');
+        tabs[thirdTabIndex].classList.remove('tabs-block-activator');
+        buttons[thirdTabIndex].classList.remove('tabs-red-line-activator');
     }
-     showTab();
+    showTab();
     function womenShow() {
-        i = 0;
-        j = 1;
-        k = 2;
-        showTab()
+        firstTabIndex = 0;
+        secondTabIndex = 1;
+        thirdTabIndex = 2;
+        firstTabIndex;
+        showTab();
     }
     function menShow() {
-        i = 1;
-        j = 2;
-        k = 0;
-        showTab()
+        firstTabIndex = 1;
+        secondTabIndex = 2;
+        thirdTabIndex = 0;
+        showTab();
     }
     function shoesShow() {
-        i = 2;
-        j = 0;
-        k = 1;
-        showTab()
+        firstTabIndex = 2;
+        secondTabIndex = 0;
+        thirdTabIndex = 1;
+        showTab();
     }
 
     buttonWomen.addEventListener('click', womenShow);
     buttonMen.addEventListener('click', menShow);
-    buttonShoes.addEventListener('click', shoesShow)
+    buttonShoes.addEventListener('click', shoesShow);
 
     console.log(menShow());
 })();
