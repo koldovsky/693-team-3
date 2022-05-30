@@ -45,6 +45,4 @@
     buttonWomen.addEventListener('click', womenShow);
     buttonMen.addEventListener('click', menShow);
     buttonShoes.addEventListener('click', shoesShow);
-
-    console.log(menShow());
 })();
