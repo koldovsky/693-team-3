@@ -89,12 +89,30 @@ content: url(../img/keep-fit/item.svg);
 }
 
 .keep-fit__img-carousel {
-    width: 260px;
-    height: 170px;
+    width: 190px;
+    height: 110px;
     border: 2px solid #e0e0e0;
     margin: 15px 15px;
     padding: 20px 27px;
 
+}
+
+.keep-fit__carousel .slide {
+    display: flex;
+}
+
+.left {
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 30px; 
+}
+
+.right {
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 30px; 
 }
 
 /*BLOG*/
@@ -148,6 +166,16 @@ content: url(../img/keep-fit/item.svg);
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+
+@media (min-width: 400px){
+    .keep-fit__img-carousel {
+        width: 260px;
+        height: 170px;
+        border: 2px solid #e0e0e0;
+        margin: 15px 15px;
+        padding: 20px 27px;
+    }
 }
 
 @media (min-width: 785px) {
