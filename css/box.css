@@ -445,3 +445,14 @@
     z-index: 1001;
     overflow-x: hidden;
 }
+.contact-form-status{
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #717474;
+    text-transform: none;
+    margin-top: 32px;
+    text-align: center;
+}

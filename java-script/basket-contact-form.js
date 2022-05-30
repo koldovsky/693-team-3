@@ -8,7 +8,7 @@
                 name: document.querySelector('.box-contact-form input[name=user-name]').value,
                 email: document.querySelector('.box-contact-form input[name=user-email]').value,
                 phone: document.querySelector('.box-contact-form input[name=user-phone]').value,
-                comment: document.querySelector('.box-contact-form input[name=user-comment]').value
+                comment: document.querySelector('.box-contact-form textarea[name=user-comment]').value,
             });
             try{
                 await fetch(event.target.action,{
