@@ -85,6 +85,7 @@
 .tabs-block-activator {
     display: contents;
 }
+
 .tabs-red-line-activator {
     border-bottom: 2px solid var(--block-dot-color);
 }
@@ -128,7 +129,6 @@
 
 .main-collection-main__btn {
     display: flex;
-    flex-flow: row;
     justify-content: center;
     align-items: center;
     width: 125px;
@@ -142,6 +142,7 @@
 
 .main-collection-main__btn:hover {
     background-color: var(--block-dot-color);
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
