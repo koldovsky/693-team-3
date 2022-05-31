@@ -45,6 +45,14 @@
         content: '';
         top: 8px;
     }
+    .menu-btn.active span {
+        transform: scale(0);
+    }
+
+    .menu-btn.active::after {
+        bottom: 40%;
+        transform: rotate(-45deg);
+    }
 
     .header_top-nav-menu {
         display: block;
