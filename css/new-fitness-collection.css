@@ -101,3 +101,8 @@ i {
 
 .newfitcollection__playback {
 }
+
+.fa-solid:hover {
+  background-color: red;
+  border-radius: 100%;
+}
