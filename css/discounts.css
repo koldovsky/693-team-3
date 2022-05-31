@@ -63,9 +63,9 @@
 
 .discount-20-border-text {
     background-color: rgba(34, 35, 35, 0.89);
-    margin-top: 250px;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 120px;
     width: 550px;
     text-align: center;
@@ -117,8 +117,8 @@
 
 .discount-30-border-text {
     background-color: rgba(34, 35, 35, 0.89);
-    margin-top: 250px;
-    margin-left: 33px;
+    margin-top: 40%;
+    margin-left: 5%;
     margin-right: 33px;
     height: 120px;
     width: 550px;
@@ -170,8 +170,8 @@
 
 .discount-25-border-text {
     background-color: rgba(34, 35, 35, 0.89);
-    margin-top: 250px;
-    margin-left: 33px;
+    margin-top: 40%;
+    margin-left: 5%;
     margin-right: 33px;
     height: 120px;
     width: 550px;
@@ -355,5 +355,34 @@
 
     .discount-25-banner-text{
         font-size: 26px!important;
+    }
+}
+@media (max-width: 640px){
+    .discount-20-banner{
+        height: 255px;
+        width: 90%;
+    }
+    .discount-20-border-text{
+        height: 115px;
+        width: 90%;
+        margin-top: 30%;
+    }
+    .discount-30-banner{
+        height: 255px;
+        width: 90%;
+    }
+    .discount-30-border-text{
+        height: 115px;
+        width: 90%;
+        margin-top: 30%;
+    }
+    .discount-25-banner{
+        height: 255px;
+        width: 90%;
+    }
+    .discount-25-border-text{
+        height: 115px;
+        width: 90%;
+        margin-top: 30%;
     }
 }
