@@ -6,6 +6,8 @@
     const itemCode = document.querySelector('.card-item-info__code');
     const itemPrice = document.querySelector('.card-item-info__price');
     const itemDescription = document.querySelector('.card-item-info-text');
+
+    let source = 0;
 	
     function renderProductCart (products){
         
@@ -18,3 +20,6 @@
     console.log(cardImg);
     
 })();
+let source = 0;
+
+console.log(source);
