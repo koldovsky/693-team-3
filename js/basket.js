@@ -35,6 +35,10 @@
     getBasket();
 
     function openCloseBasket() {
+        const shoppingBox = document.getElementById("shopping-img")
+        const statusForm = document.querySelector(".contact-form-status")
+        const button = document.querySelector(".button__content_1")
+        const formContent = document.querySelector(".all-shopping-card")
         const content = document.getElementById("box-main")
         const show = document.getElementById("shopping-img")
         const hide = document.getElementById("cross")
@@ -47,8 +51,14 @@
             content.style.display = "none";
         }
         hide.addEventListener("click", () => {
+            statusForm.style.display = "none";
+            formContent.style.display = "block";
+            button.style.display = "block";
             content.style.display = "none";
             document.body.style.overflow = "scroll";
+            if (statusForm.style.display = 'block'){
+                shoppingBox.style.display = "none";
+            }
         });
     }
 
