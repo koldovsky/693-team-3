@@ -1,4 +1,18 @@
-(async function(){
+(async function () {
+    let clickedProduct = 'Puma Basket Shoes';
+    // const allProducts = document.querySelectorAll('.products-item');
+
+    // function onOperationItemClick(eventObject) {
+    //     let clicketElement = eventObject.currentTarget;
+    //     clickedProduct = clicketElement['alt']
+    //         ? clicketElement['alt']
+    //         : clicketElement['textContent'];
+    // }
+
+    // allProducts.forEach((element) =>
+    //     element.addEventListener('click', onOperationItemClick)
+    // );
+
     const cardTitle = document.querySelector('.card-item-title');
     const cardImg = document.querySelector('.card-item-img');
     const cardStock = document.querySelector('.card-item-info__stock');
@@ -7,19 +21,22 @@
     const itemPrice = document.querySelector('.card-item-info__price');
     const itemDescription = document.querySelector('.card-item-info-text');
 
-    let source = 0;
-	
-    function renderProductCart (products){
-        
+    function renderProductCart() {
+        cardTitle.innerHTML = rightObject['name'];
+        cardImg.innerHTML += `<img src="${rightObject['imgUrl']}" class="d-block w-100 " 
+        alt="${rightObject['name']}">`;
+        cardStock.innerHTML = rightObject['stock'];
+        itemName.innerHTML = rightObject['name'];
+        itemCode.innerHTML = rightObject['stock'];
+        itemPrice.innerHTML = rightObject['price'];
+        itemDescription.innerHTML = rightObject['description'];
     }
 
-	const response = await fetch('products.json');
+    const response = await fetch('products.json');
     const products = await response.json();
-   
-    
-    console.log(cardImg);
-    
-})();
-let source = 0;
 
-console.log(source);
+    let rightObject = products.find(
+        (productsArr) => productsArr.name === clickedProduct
+    );
+    renderProductCart();
+})();
