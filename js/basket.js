@@ -66,10 +66,10 @@
     openCloseBasket();
 
     async function getProducts() {
-        if (!this.products) {
-            this.products = await (await fetch('products.json')).json();
+        if (!products) {
+            let products = (await fetch('products.json')).json();
         }
-        return this.products;
+        return products;
     };
     getProducts();
 
@@ -85,11 +85,11 @@
     saveCart();
 
 
-    async function renderProducts(cart) {
+   function renderProducts(cart) {
         let total = 0;
         const productsContainer = document.querySelector('.product-inner');
         for (const id in cart) {
-            const product = await getProductById(id);
+            const product = getProductById(id);
             total += product.price * cart.id;
             productsContainer.innerHTML += `
             <div class="product-inner">

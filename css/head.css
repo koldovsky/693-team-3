@@ -222,11 +222,15 @@
 
 .text-ui-brand-color-dot {
     color: var(--block-dot-color) !important;
+    font-size: 124px;
+    line-height: 1.2;
+    font-family: var(--font-titles);
+    margin-left: 10px;
     font-weight: 400;
 }
 
 .w-text-content {
-    position: relative;
+    display: flex;
     font-size: 124px;
     margin-left: 19%;
     margin-right: 40%;
