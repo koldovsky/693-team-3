@@ -1,0 +1,53 @@
+.form {
+    height: 400px;
+    background-image: url(../img/footer/form-background.png);
+    background-position: 50% 50%;
+    padding: 35px 15px 45px 15px;
+}
+
+.form__container{
+    display: block;
+}
+
+.form__description-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.form__icon {
+    margin: 7.5px;
+}
+
+.form__discount {
+    color: var(--block-dot-color);
+    font-size: 21px;
+}  
+
+.form__description {
+    margin: 7.5px;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.form__contact {
+    margin-top: 20px;
+}
+
+.form__email {
+    background-color: var(--block-why-choose-us-divider-color);
+    width: 100%;
+    height: 45px;
+    padding: 10px 30px;
+}
+
+.form__btn {
+    width: 100%;
+    height: 45px;
+    background-color: var(--block-dot-color);
+    color: var(--block-white-color);
+    margin-top: 24px;
+    font-weight: bold;
+}
