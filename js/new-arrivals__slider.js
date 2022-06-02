@@ -88,10 +88,6 @@
         slides[thirdSlide + 1] != undefined
           ? slides[thirdSlide + 1]
           : slides[0];
-      arrivalsSlider.innerHTML +=
-        slides[fourthSlide + 1] != undefined
-          ? slides[fourthSlide + 1]
-          : slides[0];
     }
   }
 
