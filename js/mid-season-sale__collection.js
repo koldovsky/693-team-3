@@ -7,7 +7,7 @@
 			"price": "$60",
 			"imgUrl": "img/mid-season-sale/adidas-trainers.jpg",
 			"column": "col-12 col-sm-12 col-md-6 col-lg-4 col-xl col-xxl",
-			"href": "adidas-cloudfoam-trainers.html"
+			"href": "products-card.html"
 		},
 		{
 			"id": "2",
@@ -15,7 +15,7 @@
 			"price": "$25,00",
 			"imgUrl": "img/mid-season-sale/reebok-shorts.jpg",
 			"column": "col-12 col-sm-12 col-md-6 col-lg-4 col-xl col-xxl",
-			"href": "reebok-workout-shorts.html"
+			"href": "products-card.html"
 		},
 		{
 			"id": "3",
@@ -23,7 +23,7 @@
 			"price": "$60,00",
 			"imgUrl": "img/mid-season-sale/puma-shoes.jpg",
 			"column": "col-12 col-sm-12 col-md-6 col-lg-4 col-xl col-xxl",
-			"href": "puma-fitness-shoes-in-grey.html"
+			"href": "products-card.html"
 		},
 		{
 			"id": "4",
@@ -31,7 +31,7 @@
 			"price": "$43,00",
 			"imgUrl": "img/mid-season-sale/puma-tank-top.jpg",
 			"column": "col-12 col-sm-12 col-md-6 col-lg-6 col-xl col-xxl",
-			"href": "puma-essential-tank-top.html"
+			"href": "products-card.html"
 		},
 		{
 			"id": "5",
@@ -39,7 +39,7 @@
 			"price": "$23,00",
 			"imgUrl": "img/mid-season-sale/nike-polo-tshirt.jpg",
 			"column": "col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl",
-			"href": "nike-classic-polo-t-shirt.html"
+			"href": "products-card.html"
 		}
 	]
 	`;
@@ -54,10 +54,10 @@
                     ><img
                       src="${product.imgUrl}"
                       alt="${product.name}"
-                      class="mid-season-sale__img"
+                      class="mid-season-sale__img products-item"
                   /></a>
                   <a href=${product.href}>
-                    <h4 class="mid-season-sale__item-name">${product.name}</h4>
+                    <h4 class="mid-season-sale__item-name products-item">${product.name}</h4>
                   </a>
                   <p class="mid-season-sale__item-price">${product.price}</p>
                   <a id="mid-season-sale__cart" class="mid-season-sale__cart">Add to Cart</a>

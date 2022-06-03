@@ -1,5 +1,5 @@
 (async function () {
-    let clickedProduct = 'Puma Basket Shoes';
+    let clickedProduct = localStorage.product;
 
     const cardTitle = document.querySelector('.card-item-title');
     const cardImg = document.querySelector('.card-item-img');
