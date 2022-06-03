@@ -1,12 +1,12 @@
-let clickedProduct;
 (function () {
     const allProducts = document.querySelectorAll('.products-item');
 
     function onOperationItemClick(eventObject) {
-        let clicketElement = eventObject.currentTarget;
-        clickedProduct = clicketElement['alt']
-            ? clicketElement['alt']
-            : clicketElement['textContent'];
+        let clickedElement = eventObject.currentTarget;
+        let clickedProduct = clickedElement['alt']
+            ? clickedElement['alt']
+            : clickedElement['textContent'];
+            sessionStorage.product = clickedProduct;
     }
 
     allProducts.forEach((element) =>
