@@ -65,41 +65,51 @@
 
     openCloseBasket();
 
-    async function getProducts() {
-        if (!products) {
-            let products = (await fetch('products.json')).json();
+    const sportProduct = document.querySelector('.mid-season-sale__collection .row'),
+        shoppingCartContent = document.querySelector('.product-inner'),
+        clearCartBtn = document.querySelector('#clear-cart');
+
+    loadEventListeners();
+
+    function loadEventListeners(){
+        //when new course is added
+        sportProduct.addEventListener('click', buyCourse);
+        shoppingCartContent.addEventListener('click', removeCourse);
+
+        function buyCourse(e) {
+            if (e.target.classList.contains('mid-season-sale__cart')) {
+                const product = e.target.parentElement.parentElement;
+                getCourseInfo(product);
+            }
         }
-        return products;
-    };
-    getProducts();
-
-    async function getProductById(id) {
-        const products = await getProducts();
-        return products.find(product => product.id === id);
-    };
-    getProductById(getProducts.id);
-
-    function saveCart() {
-        localStorage['cart'] = JSON.stringify(cart);
-    };
-    saveCart();
+    }
+    function removeCourse(e){
+        if(e.target.classList.contains('remove_2')){
+            e.target.parentElement.parentElement.remove();
+        }
+    }
 
 
-   function renderProducts(cart) {
-        let total = 0;
-        const productsContainer = document.querySelector('.product-inner');
-        for (const id in cart) {
-            const product = getProductById(id);
-            total += product.price * cart.id;
-            productsContainer.innerHTML += `
-            <div class="product-inner">
+    function getCourseInfo(product) {
+        //create an Object with course data
+        const productInfo = {
+            image: product.querySelector('.mid-season-sale__img').src,
+            title: product.querySelector('.mid-season-sale__item-name').innerText,
+            price: product.querySelector('.mid-season-sale__item-price').innerText
+        }
+        addToCart(productInfo);
+    }
+
+    function addToCart(product) {
+        const row = document.createElement('product-inner');
+        row.innerHTML = ` <div class="product-inner">
             <div class="preview_photo" data-sub-item="preview">
-              <img class="preview_photo_72" src="${product.imgUrl}" alt="woman" />
+              <img class="preview_photo_72" src="${product.image}" alt="woman" />
         </div>
         <div class="info">
             <div class="name-wrapper">
                 <div data-sub-item="name" class="info_name_text">
-                    ${product.name}
+                    ${product.title}
                 </div>
             </div>
             <div data-sub-item="quantity" class="input_price">
@@ -117,26 +127,21 @@
             </div>
             <div data-sub-item="amount" class="amount-3S-ui-text" data-amount="1200">${product.price}</div>
         </div>
-        <div data-sub-item="remove" class="remove_2cA">
-            <img alt="basket" src="img/basket/bin.png" />
+        <div data-sub-item="remove" class="remove_2cA" >
+            <img alt="basket" class="remove_2" src="img/basket/bin.png" />
         </div>
     </div>
         <div class="ui-text price-details_2Qi">
-        <div class="price-details__column_1q9">
-              <span
-                  class="price-details__cell_1QF total_1VG"
-                  data-sub-item="total"
-                  data-test="total"
-              >$${total.toFixed(2)}</span
-              >
-        </div>
-</div>`;
-        }
-    }
+            <div class="price-details__column_1q9">
+                  
+            </div>
+        </div>`
+        ;
 
-    const response = await fetch('products.json');
-    const products = await response.json();
-    renderProducts(products);
+        shoppingCartContent.appendChild(row);
+    }
+    addToCart();
+
 
     function appDownArrow() {
         const priseInput = document.querySelector("#prise-input");
@@ -157,6 +162,5 @@
             }
         })
     }
-
     appDownArrow();
 })();
