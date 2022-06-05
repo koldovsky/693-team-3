@@ -8,14 +8,14 @@
             productsContainer.innerHTML += `
             <div class="storepage__product-wrapper">
                 <a href="${product.href}"><img
-                    class="main-collection-main__img"
+                    class="main-collection-main__img products-item"
                     src="${product.imgUrl}"
                     alt="${product.name}"
                   >
                 </a>
                 <div class="main-collection-main__item-name-container">
                   <a href="${product.href}" class="main-collection-main__item-name-link">
-                    <h4 class="main-collection-main__item-name-text">${product.name}</h4>
+                    <h4 class="main-collection-main__item-name-text products-item">${product.name}</h4>
                   </a>
                 </div>
                 <div class="main-collection-main__price">${product.price}</div>

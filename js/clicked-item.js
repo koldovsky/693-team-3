@@ -1,4 +1,4 @@
-(function () {
+setTimeout (function () {
     const allProducts = document.querySelectorAll('.products-item');
 
     function onOperationItemClick(eventObject) {
@@ -12,4 +12,4 @@
     allProducts.forEach((element) =>
         element.addEventListener('click', onOperationItemClick)
     );
-})();
+}, 100);

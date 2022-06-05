@@ -13,7 +13,7 @@
         alt="${rightObject['name']}">`;
         itemStock.innerHTML = rightObject['stock'];
         itemName.innerHTML = rightObject['name'];
-        itemCode.innerHTML = rightObject['stock'];
+        itemCode.innerHTML = rightObject['code'];
         itemPrice.innerHTML = rightObject['price'];
         itemDescription.innerHTML = rightObject['description'];
     }
