@@ -39,7 +39,7 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.all-discount');
         slideContainer.innerHTML = slides[currentSlide];
-        if (window.innerWidth >= 900) {
+        if (window.innerWidth >= 1450) {
             const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
             slideContainer.innerHTML += slides[secondSlide];
         }
