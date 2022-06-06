@@ -9,11 +9,10 @@
 
     function renderProductCart() {
         cardTitle.innerHTML = rightObject['name'];
-        itemImg.innerHTML += `<img src="${rightObject['imgUrl']}" class="d-block w-100 " 
-        alt="${rightObject['name']}">`;
+        itemImg.innerHTML += `<img src="${rightObject['imgUrl']}" alt="${rightObject['name']}">`;
         itemStock.innerHTML = rightObject['stock'];
         itemName.innerHTML = rightObject['name'];
-        itemCode.innerHTML = rightObject['stock'];
+        itemCode.innerHTML = rightObject['code'];
         itemPrice.innerHTML = rightObject['price'];
         itemDescription.innerHTML = rightObject['description'];
     }
@@ -21,9 +20,9 @@
     const response = await fetch('products.json');
     const products = await response.json();
 
-    let clickedProduct = sessionStorage.product;
+    const clickedProduct = sessionStorage.product;
 
-    let rightObject = products.find(
+    const rightObject = products.find(
         (product) => product.name === clickedProduct
     );
     renderProductCart();

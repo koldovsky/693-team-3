@@ -1,15 +1,15 @@
-(function () {
+setTimeout(function () {
     const allProducts = document.querySelectorAll('.products-item');
 
     function onOperationItemClick(eventObject) {
-        let clickedElement = eventObject.currentTarget;
-        let clickedProduct = clickedElement['alt']
+        const clickedElement = eventObject.currentTarget;
+        const clickedProduct = clickedElement['alt']
             ? clickedElement['alt']
             : clickedElement['textContent'];
-            sessionStorage.product = clickedProduct;
+        sessionStorage.product = clickedProduct;
     }
 
     allProducts.forEach((element) =>
         element.addEventListener('click', onOperationItemClick)
     );
-})();
+}, 100);
