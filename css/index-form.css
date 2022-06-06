@@ -2,7 +2,7 @@
    
     background-image: url(../img/footer/form-background.png);
     background-position: 60%;
-    padding: 35px 15px 35px 15px;
+    padding: 30px 15px;
 }
 
 @media (min-width: 768px) {
@@ -74,4 +74,9 @@
     color: var(--block-white-color);
     margin-top: 24px;
     font-weight: bold;
+}
+
+.form__status {
+    text-align: center;
+    font-size: 16px;
 }
