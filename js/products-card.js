@@ -9,7 +9,8 @@
 
     function renderProductCart() {
         cardTitle.innerHTML = rightObject['name'];
-        itemImg.innerHTML += `<img src="${rightObject['imgUrl']}" alt="${rightObject['name']}">`;
+        itemImg.innerHTML += `<img src="${rightObject['imgUrl']}" class="d-block w-100" 
+        alt="${rightObject['name']}">`;
         itemStock.innerHTML = rightObject['stock'];
         itemName.innerHTML = rightObject['name'];
         itemCode.innerHTML = rightObject['code'];
