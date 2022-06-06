@@ -222,8 +222,8 @@
 }
 
 .text-ui-brand-color-dot {
+    display: contents;
     color: var(--block-dot-color) !important;
-    font-size: 124px;
     line-height: 1.2;
     font-family: var(--font-titles);
     margin-left: 10px;

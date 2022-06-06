@@ -83,15 +83,16 @@
         margin-left: 40% !important;
     }
 
+
     .social-icon {
         position: fixed;
         visibility: hidden;
         list-style: none;
         background-color: var(--block-name-color);
         z-index: 1;
-        display: inline-flex;
-        margin-left: 30%;
-        margin-top: 50%;
+        display: block;
+        margin-left: 31%;
+        margin-top: 350px;
         justify-content: center;
         transition-duration: .25s;
     }

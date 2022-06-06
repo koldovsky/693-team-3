@@ -1,6 +1,4 @@
 (async function () {
-    let cart = JSON.parse(localStorage['cart'] || '{}');
-
     function getBasket() {
         const content = document.getElementById("shopping-img")
         const show = document.querySelectorAll(".mid-season-sale__cart")
@@ -142,25 +140,24 @@
     }
     addToCart();
 
-
-    function appDownArrow() {
-        const priseInput = document.querySelector("#prise-input");
-        const upArrow = document.querySelector(".arrow_up img")
-        const downArrow = document.querySelector(".arrow-down img")
-        let count = 0;
-        upArrow.addEventListener("click", function () {
-            count++;
-            priseInput.value = count;
-        });
-        downArrow.addEventListener("click", function () {
-            if (count > 0) {
-                count--;
-                priseInput.value = count;
-            } else {
-                count = 0;
-                priseInput.value = count;
-            }
-        })
-    }
-    appDownArrow();
+    // function appDownArrow() {
+    //     const priseInput = document.querySelector("#prise-input");
+    //     const upArrow = document.querySelector(".arrow_up img")
+    //     const downArrow = document.querySelector(".arrow-down img")
+    //     let count = 0;
+    //     upArrow.addEventListener("click", function () {
+    //         count++;
+    //         priseInput.value = count;
+    //     });
+    //     downArrow.addEventListener("click", function () {
+    //         if (count > 0) {
+    //             count--;
+    //             priseInput.value = count;
+    //         } else {
+    //             count = 0;
+    //             priseInput.value = count;
+    //         }
+    //     })
+    // }
+    // appDownArrow();
 })();
